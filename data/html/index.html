@@ -21,12 +21,17 @@
 			<h1 class="heading_1">Games</h1>
 			<p class="game_category">Retro</p>
 			<ul>
-				<li><a href="" onclick="eel.start_game(pacman)">pacman</a></li>
-				<li><a href="" onclick="test_from_js()">hello world</a></li>
-				<button onclick="test_from_js()"></button>
+				<li><a onclick="eel.start_game('cmd', 'pacman_sdl')">Pacman</a></li>
+				<li><a onclick="eel.start_game('cmd', 'mgba-qt games/roms/pokemon_gelb.gb')">Pokemon Gelb</a></li>
+				<li><a onclick="eel.start_game('cmd', 'lzdoom -iwad games/wads/DOOM.WAD')">Doom 1</a></li>
+				<li><a onclick="eel.start_game('cmd', 'lzdoom -iwad games/wads/DOOM2.WAD')">Doom 2</a></li>
+				<li><a onclick="eel.start_game('cmd', 'lzdoom -iwad games/wads/HEXEN.WAD')">Hexen</a></li>
+				<li><a onclick="eel.start_game('cmd', 'lzdoom -iwad games/wads/HERETIC.WAD')">Heretic</a></li>
+				<li><a onclick="test_from_js()">test</a></li>
+				
 			</ul>
 		</div>
 	</main>
 
 </body>
-</html>
+</html

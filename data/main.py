@@ -2,16 +2,20 @@ import eel
 import os
 import time
 
-pacman = 'pacman.py'
 
 eel.init("html")  
 @eel.expose
 def test():
 	print("test")
 
-def start_game(game):
-	os.system("cd games && python3 " + game)
+@eel.expose
+def start_game(type, game):
+	if type == "py":
+		os.system("cd games && python3 " + game)
+	if type == "cmd":
+		os.system(game)
 
-"""start_game(pacman)"""
+#start_game("game", "py")
+
 eel.start("index.html")
 
