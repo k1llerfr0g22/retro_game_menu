@@ -1,0 +1,199 @@
+==============================================================================
+DOS Games Archive Game Info Card                                     Version 3
+==============================================================================
+* General Information *
+
+Game title              : Duke Nukem 3D
+Alternate title(s)      : None
+Developer               : 3D Realms
+Publisher               : 3D Realms
+                          GT Interactive
+Country of origin       : USA
+Distribution model      : Shareware, Commercial
+
+* Release Information *
+
+Release type            : Shareware (episode)
+Exclusive level(s)      : No
+Version                 : 1.3D
+Release date            : 1996/04/24
+Language                : English
+License file(s)         : LICENSE.TXT
+License/Permissions     :
+
+"Individuals can -- and are encouraged! -- to give away copies of the Game
+"without charge.
+
+"Online services (including BBSs, and WWW and FTP sites) that are free <...>
+"may make the Game available for downloading."
+
+* Distribution Information *
+
+Distribution type       : Digital download
+File name               : 3dduke13.zip
+File size               : 5 924 374 bytes
+Installer provided      : Yes
+Original location       : ftp://ftp.3drealms.com/share/
+Retrieved from          : http://legacy.3drealms.com/downloads.html
+
+Additional files        : 
+                          Windows desktop icons (10 files)
+Retrieved from          : http://legacy.3drealms.com/stuff/apogicon.exe
+
+                          Duke Nukem 3D .Con Editing FAQ by Jonah Bishop v3.1
+File name               : confaq31.zip
+File size               : 36 560 bytes
+Retrieved from          : http://legacy.3drealms.com/faq/index.html
+
+                          Duke Nukem Map Editing FAQ by Jonah Bishop v1.9
+File name               : mpfqdn19.zip
+File size               : 171 903 bytes
+Retrieved from          : http://legacy.3drealms.com/faq/index.html
+
+                          RTS FAQ by Charlie Wiederhold v1.5
+File name               : rtsfaq15.txt
+File size               : 16 744 bytes
+Retrieved from          : http://legacy.3drealms.com/faq/index.html
+
+                          RTSMaker v2.0
+File name               : rtsmakr2.zip
+File size               : 10 453 bytes
+Retrieved from          : http://legacy.3drealms.com/downloads.html
+
+                          v1.3d demo file showing 3D Realms during final night
+                          of game development Dukematching
+File name               : cooldemo.zip
+File size               : 81 825 bytes
+Retrieved from          : http://legacy.3drealms.com/downloads.html
+
+                          DOS/32 Advanced DOS Extender
+File names & sizes      : dos32a.exe (27 504 bytes)
+                          LICENSE (1 860 bytes)
+Retrieved from          : https://dos32a.narechk.net/index_en.html
+File name               : dos32a-912-bin.zip
+File size               : 215 399 bytes
+
+                          S3 VBE/Core 2.0  Version 3.18
+File name               : s3vbe318.zip
+File size               : 26 216 bytes
+Retrieved from          : http://wwwmath.uni-muenster.de/math/u/mesched/
+                          (Wayback Machine snapshot from 2 Feb 1999)
+
+                          S3 Speed Up  Version 3.11
+File name               : s3spd311.zip
+File size               : 13 400 bytes
+Retrieved from          : http://wwwmath.uni-muenster.de/math/u/mesched/
+                          (Wayback Machine snapshot from 2 Feb 1999)
+
+Maintainer              : MrFlibble <mrflibble86@gmail.com>
+==============================================================================
+* Note for DOSBox users *
+
+This software is fully installed and configured to run in the DOSBox emulator.
+You can simply drag and drop the file DUKE3D.BAT over the DOSBox icon to start
+playing. Experienced DOSBox users may choose other methods of startup.
+
+!!! IMPORTANT !!!
+
+Please DO NOT use dn3d-brw.bat to run the game! This is a special file for the
+browser version of DOSBox and will not play Duke Nukem 3D in the best possible
+quality.
+
+The software was configured and tested to work with the official DOSBox build
+v0.74-3 available from www.dosbox.com. It may or may not work with any other
+third-party DOSBox distributions that are available.
+
+For playing instructions and other information, please refer to the
+DN3DHELP.TXT file found in the DUKE3D directory.
+==============================================================================
+* Note on the use of DOS/32 Advanced DOS Extender *
+
+This product uses DOS/32 Advanced DOS Extender technology.
+
+Copyright (C) 1996-2006 by Narech K. All rights reserved.
+
+DOS/32 Advanced DOS Extender is used instead of the standard DOS/4GW extender
+shipped with Duke Nukem 3D Shareware to improve stability and performance in
+DOSBox.
+
+DOS/32 Advanced DOS Extender is free software. Please see the LICENSE file in
+the DUKE3D directory for license details.
+==============================================================================
+* Note on the use of S3 VBE/Core 2.0 and S3 Speed Up *
+
+S3 VBE/Core 2.0 and S3 Speed Up are utilities by Dietmar Meschede that improve
+video performance and speed in DOSBox for VGA and VESA modes.
+
+S3 VBE/Core 2.0 and S3 Speed Up are free software. Please see the respective
+documentation in S3VBE20 and S3SPDUP directories for more information and
+license details.
+==============================================================================
+* Source ports *
+
+This game can also be played natively (no DOSBox required) on Windows, MacOS,
+Linux and other modern platforms using one of the source ports.
+
+> EDuke32 (the most advanced port):
+  http://www.eduke32.com/
+
+NOTE: You can download high quality music packs for Duke Nukem 3D to be played
+in EDuke32. These tracks were recorded on authentic 90s hardware for which the
+Duke Nukem 3D soundtrack was originally written:
+
+http://sc55.duke4.net/games.php#duke3d
+
+You can also download the high-quality sound effects from the PlayStation
+version of Duke Nukem 3D to be used with the PC version:
+
+http://hrp.duke4.net/download.php
+
+> Raze (based on EDuke32 code):
+  https://github.com/coelckers/Raze/releases
+
+> JFDuke3D (one of the first ports):
+  http://jonof.id.au/jfduke3d/index.html
+
+> xDuke (more classic look):
+  http://vision.gel.ulaval.ca/~klein/duke3d/
+==============================================================================
+* Game related websites *
+
+Developer website (current):
+https://3drealms.com/catalog/duke-nukem-3d_27/
+
+Developer website (legacy):
+http://legacy.3drealms.com/duke3d/index.html
+
+Developer website (access via the Wayback Machine):
+http://www.3drealms.com/catalog/duke3d/
+
+NOTE: Some sites are only available as copies made by the Wayback Machine:
+http://web.archive.org/
+==============================================================================
+* Disclaimer *
+
+THE GAME DATA IN THIS ARCHIVE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING AND NOT LIMITED TO ANY IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+All game content is copyright to their respective owners.
+
+No files from the original software package provided by the developer and/or
+publisher were modified except for the configuration files needed to set up
+sound devices and input methods.
+
+This software was tested to work with the current official DOSBox build
+(v0.74-3) and was scanned by an antivirus/anti-malware tool.
+
+You use this software at your own risk. DOS Games Archive is not liable for
+any unwanted consequences that may arise from your using this software.
+==============================================================================
+* Download and online play *
+
+This game is available from DOS Games Archive at:
+https://www.dosgamesarchive.com/download/duke-nukem-3d/
+
+It can be played online at:
+https://www.dosgamesarchive.com/play/duke-nukem-3d/
+
+--- END OF FILE (2021/01/27) ---

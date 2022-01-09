@@ -1,0 +1,110 @@
+
+-------------------------------------------------------------------------------
+-------------------------  S3 Speed Up  Version 3.11  -------------------------
+-------------------------------------------------------------------------------
+
+
+This is the documentation for S3 Speed Up.  S3 Speed Up is
+Copyright (c) 1994,97 Dietmar Meschede.  All rights reserved.
+
+
+Contents
+--------
+
+1. Overview
+2. Installation
+3. Speed up
+4. The S3 Speed Up package
+5. Copyright, legal disclaimer and terms of use
+6. The author
+
+
+1. Overview
+-----------
+
+S3 Speed Up is a MS-DOS TSR program, which can speed up most banked VESA
+modes (no text or 4 bits/pixel modes) and VGA mode 13h (320x200x256)
+on S3 graphics cards.
+
+S3 Speed Up requires S3 VBE/Core 2.0 (version 3.10 or higher).
+
+
+2. Installation
+---------------
+
+You must install S3 VBE/Core 2.0 (version 3.10 or higher) in memory
+before installing S3 Speed Up.
+
+Simply type "S3SPDUP /LOAD" to install S3 Speed Up in memory.
+
+Type "S3SPDUP VESA+" to install S3 Speed Up in memory and activate
+banked VESA modes speed up.
+
+For savety reasons S3 Speed Up is disabled at Windows(tm) start up and
+shut down.  If you want to use S3 Speed Up under Windows(tm), you must
+activate S3 Speed Up in each DOS box.
+
+"S3SPDUP /?" shows a help screen.
+
+
+3. Speed up
+-----------
+
+S3 Speed Up can speed up most banked VESA modes (no text or
+4 bits/pixel modes) and VGA mode 13h (320x200x256).
+
+To speed up these modes S3 Speed Up must temporary change the
+PCI base address, which may cause problems!
+
+E.g. programs using the S3d(tm) engine (native S3 ViRGE programs)
+may or may not run, if banked VESA modes speed up is enabled.
+
+The speed up of VGA mode 13h is not 'Mode X' compatible.  This means
+that some programs (e.g. DOOM) will not work when the VGA mode 13h
+speed up is enabled.
+
+Only use VGA mode 13h speed up, if you are familiar with 'Mode X'!
+
+Programs using VESA VBE/Core 2.0 linear frame buffer modes
+(e.g. QUAKE) will not profit from banked VESA modes speed up.
+
+
+4. The S3 Speed Up package
+--------------------------
+
+The S3 Speed Up package consists of the following 6 files:
+
+  FILE_ID.DIZ   Short description.
+  S3SPDUP.EXE   S3 Speed Up.
+  S3SPDUP.TXT   Documentation for S3 Speed Up.
+  S3SPDUP.HTM   Documentation for S3 Speed Up in HTML format.
+  HISTORY.TXT   History of S3 Speed Up.
+  HISTORY.HTM   History of S3 Speed Up in HTML format.
+
+
+5. Copyright, legal disclaimer and terms of use
+-----------------------------------------------
+
+S3 Speed Up is Copyright (c) 1994,97 Dietmar Meschede.
+All rights reserved.
+
+The author (Dietmar Meschede) excludes any warranties with respect to
+S3 Speed Up.  The author shall have no liability for damages arising
+out of or resulting from the use or misuse of S3 Speed Up.
+
+All trademarks used in this documentation are property of their respective
+owners.
+
+This package is Freeware.  You may use, copy and distribute this
+package, if you don't modify the files in this package in any way
+and only distribute the original package with all files included.
+
+
+6. The author
+-------------
+
+Dietmar Meschede
+
+E-Mail: mesched@math.uni-muenster.de
+WWW:    http://www.uni-muenster.de/math/u/mesched/
+FTP:    ftp://ftp.uni-muenster.de/pub/win95/meschede/

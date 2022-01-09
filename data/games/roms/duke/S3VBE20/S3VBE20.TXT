@@ -1,0 +1,124 @@
+
+-------------------------------------------------------------------------------
+-----------------------  S3 VBE/Core 2.0  Version 3.18  -----------------------
+-------------------------------------------------------------------------------
+
+
+This is the documentation for S3 VBE/Core 2.0.  S3 VBE/Core 2.0 is
+Copyright (c) 1994,97 Dietmar Meschede.  All rights reserved.
+
+
+Contents
+--------
+
+1. Overview
+2. Installation
+3. Low resolution video modes
+4. Known problems
+5. The S3 VBE 2.0 package
+6. Copyright, legal disclaimer and terms of use
+7. The author
+
+
+1. Overview
+-----------
+
+VESA VBE/Core 2.0 is an extension of the VESA VBE 1.2 standard
+(VBE = Video BIOS Extension).
+
+S3 VBE/Core 2.0 is a MS-DOS TSR program, which installs a VESA VBE/Core 2.0
+for S3 graphics cards with a VESA VBE 1.2.
+
+S3 VBE/Core 2.0 supports the following S3 graphics chips:
+
+  Vision864, Vision868, Vision964, Vision968, Trio32, Trio64, Trio64V+,
+  Trio64UV+, Trio64V2/DX, Trio64V2/GX, ViRGE, ViRGE/VX, ViRGE/DX, ViRGE/GX.
+
+
+2. Installation
+---------------
+
+Type "S3VBE20 /?" to display a help screen.
+
+One way to install S3 VBE/Core 2.0 on your system is to unzip S3VBE318.ZIP
+to the directory C:\S3VBE20 and insert the line
+
+  C:\S3VBE20\S3VBE20 /INSTALL
+
+in your AUTOEXEC.BAT.
+
+
+3. Low resolution video modes
+-----------------------------
+
+S3 VBE/Core 2.0 provides the following low resolution video modes:
+
+  320 x 200 x 8 @ 70 Hz,
+  320 x 240 x 8 @ 68 Hz,
+  320 x 400 x 8 @ 70 Hz,
+  320 x 480 x 8 @ 68 Hz,
+  400 x 300 x 8 @ 74 Hz,
+  512 x 384 x 8 @ 82 Hz.
+
+If the original video BIOS supports VBE mode 10Dh (320x200x15) and 10Eh
+(320x200x16), S3 VBE/Core 2.0 provides two additional video modes:
+
+  320 x 240 x 15,
+  320 x 240 x 16.
+
+Since these low resolution modes use non-standard CRT parameters
+there is a remote possibility that these modes may not work or
+may damage defective monitors.
+
+
+4. Known problems
+-----------------
+
+There may be problems when using VESA VBE/Core 2.0 linear frame
+buffer modes under Windows 95 with a Trio64V+ graphics chip.
+
+These problems can be solved by disabling screen clears during
+VBE mode sets.  Type "S3VBE20 CLEAR-" to disable screen clears
+during VBE mode sets.  Most applications will write their own
+image into video memory and don't really need a screen clear.
+
+
+5. The S3 VBE 2.0 package
+-------------------------
+
+The S3 VBE 2.0 package consists of the following 6 files:
+
+  FILE_ID.DIZ   Short description.
+  S3VBE20.EXE   S3 VBE/Core 2.0.
+  S3VBE20.TXT   Documentation for S3 VBE/Core 2.0.
+  S3VBE20.HTM   Documentation for S3 VBE/Core 2.0 in HTML format.
+  HISTORY.TXT   History of S3 VBE/Core 2.0.
+  HISTORY.HTM   History of S3 VBE/Core 2.0 in HTML format.
+
+
+6. Copyright, legal disclaimer and terms of use
+-----------------------------------------------
+
+S3 VBE/Core 2.0 is Copyright (c) 1994,97 Dietmar Meschede.
+All rights reserved.
+
+The author (Dietmar Meschede) excludes any warranties with respect to
+S3 VBE/Core 2.0.  The author shall have no liability for damages arising
+out of or resulting from the use or misuse of S3 VBE/Core 2.0.
+
+All trademarks used in this documentation are property of their respective
+owners.
+
+This package is Freeware.  You may use, copy and distribute this
+package, if you don't modify the files in this package in any way
+and only distribute the original package with all files included.
+
+
+7. The author
+-------------
+
+Dietmar Meschede
+
+E-Mail: mesched@math.uni-muenster.de
+WWW:    http://www.uni-muenster.de/math/u/mesched/
+FTP:    ftp://ftp.uni-muenster.de/pub/win95/meschede/

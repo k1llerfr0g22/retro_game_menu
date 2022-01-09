@@ -1,0 +1,13 @@
+
+---------------------------------------
+-----  S3 Speed Up  Version 3.11  -----
+---------------------------------------
+
+Speeds up banked VESA modes and VGA
+mode 13h on S3 graphics cards.
+
+Requires S3 VBE/Core 2.0 (version
+3.10 or higher).
+
+Copyright (c) 1994,97 Dietmar Meschede.
+All rights reserved.

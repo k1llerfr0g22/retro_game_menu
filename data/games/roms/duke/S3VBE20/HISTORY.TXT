@@ -1,0 +1,128 @@
+
+------------------------------------------------------------------------------
+------------------------  History of S3 VBE/Core 2.0  ------------------------
+------------------------------------------------------------------------------
+
+
+Version 3.18  (1. December 1997)
+--------------------------------
+
+> Updated documentation.
+
+> This is the final release of S3 VBE/Core 2.0.
+
+
+Version 3.18  (1. September 1997)
+---------------------------------
+
+> Added more detailed install instructions to documentation.
+
+> Added file HISTORY.HTM to S3 VBE 2.0 package.
+
+
+Version 3.17  (22. June 1997)
+-----------------------------
+
+> Fixed a bug in runtime library, which caused runtime errors on fast systems.
+
+
+Version 3.16  (18. April 1997)
+------------------------------
+
+> Improved graphics chip detection.
+
+> Improved low resolution video modes support.
+
+
+Version 3.15  (8. April 1997)
+-----------------------------
+
+> Corrected Trio64V2 graphics chip detection.
+
+> Added distinction of Trio64V2/DX and Trio64V2/GX graphics chips.
+
+
+Version 3.14  (6. April 1997)
+-----------------------------
+
+> Added support for Trio64V2 and ViRGE/GX graphics chips.
+
+> Changed low resolution video mode numbers.
+
+> Improved graphics chip detection.
+
+
+Version 3.13  (21. March 1997)
+------------------------------
+
+> Added support for Trio64UV+ and ViRGE/DX graphics chips.
+
+> Added more low resolution video modes (320x240x15 and 320x240x16).
+
+> Improved defective VBE applications problem fix (VBE function 4F01h).
+
+
+Version 3.12  (12. March 1997)
+------------------------------
+
+> Fixed problems with defective VBE applications (VBE function 4F00h & 4F01h).
+
+
+Version 3.11  (12. November 1996)
+---------------------------------
+
+> Added support for Trio32 graphics chip.
+
+> Changed order of video modes (low resolution video modes are listed first).
+
+> Fixed a bug in VBE function 4F00h (ReturnVBEControllerInformation).
+
+> Fixed a problem with some low resolution video modes.
+
+
+Version 3.10  (3. October 1996)
+-------------------------------
+
+> Supported graphics chips: Vision864/868/964/968, Trio64/64V+, ViRGE(/VX).
+
+> Added graphics chip detection.
+
+> Added automatic configuration of linear frame buffer location.
+
+> Improved low resolution video modes support.
+
+> Changed command line parsing.
+
+> Improved compatibility with Windows(tm).
+
+> Improved VESA VBE/Core 2.0 support.
+
+> Removed support for German language.
+
+> Renamed file S3VBE20.DOC to S3VBE20.TXT in S3 VBE 2.0 package.
+
+> Added files S3VBE20.HTM and HISTORY.TXT to S3 VBE 2.0 package.
+
+> Removed file S3VBE20.DOK from S3 VBE 2.0 package.
+
+
+Version 3.02  (3. April 1996)
+-----------------------------
+
+> Fixed a bug in language detection code, which sometimes crashed the system.
+
+
+Version 3.01  (12. January 1996)
+-------------------------------
+
+> First release of S3 VBE 2.0 package.
+
+> Moved S3 VBE/Core 2.0 from D-Tools package to S3 VBE 2.0 package.
+
+> Added files FILE_ID.DIZ, S3VBE20.DOC, S3VBE20.DOK to S3 VBE 2.0 package.
+
+
+Version 3.00  (27. July 1995)
+-----------------------------
+
+> First official release of S3 VBE/Core 2.0 as part of D-Tools package.

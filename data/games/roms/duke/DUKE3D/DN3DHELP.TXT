@@ -1,0 +1,1800 @@
+     _____        _          _   _       _                    ____  _____
+    |  __ \      | |        | \ | |     | |                  |___ \|  __ \
+    | |  | |_   _| | _____  |  \| |_   _| | _____ _ __ ___     __) | |  | |
+    | |  | | | | | |/ / _ \ | . ` | | | | |/ / _ \ '_ ` _ \   |__ <| |  | |
+    | |__| | |_| |   <  __/ | |\  | |_| |   <  __/ | | | | |  ___) | |__| |
+    |_____/ \__,_|_|\_\___| |_| \_|\__,_|_|\_\___|_| |_| |_| |____/|_____/
+
+              Duke Nukem 3D v1.3D On-Disk Technical Support Manual
+                   Copyright (c) 1996 3D Realms Entertainment
+
+                    P.O. Box 496419 þ Garland, TX 75049-6389
+                                 (214) 278-5655
+
+                  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                  ³TABLE OF CONTENTS AND HOW TO USE THIS FILE³
+                  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+    This document gives detailed instructions on how to play Duke Nukem 3D
+                   and contains important troubleshooting information.
+
+This document is set up with a quick search capability.  If you press F7 at
+any time, you will get a listing of all the categories to look at in this
+file.  Press F7 now to look at it.  In this menu, you can scroll up and down
+the listing of items to read, and then select one by pressing ENTER.  You will
+be taken directly to that item.  If you wish to search for a specific piece of
+text, you can hit F3 to enter any text to search for.  If you just wish to
+scroll up and down, you can use the arrow keys to move through the text.  You
+can also use the Home and End keys to quickly get to the top or the bottom of
+this file.  Press F7 now to see a listing of the categories in this document.
+
+
+                             ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                             ³SYSTEM REQUIREMENTS³
+                             ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+þ Duke Nukem 3D's minimum system requirements are:
+
+  A 486DX2/66 with 8 megabytes of memory and VGA graphics.  The game will
+  run on less than a 486DX2/66, but with reduced game performance.  VGA
+  graphics and 8 Mb of memory are required, however.
+
+  We recommend a Pentium with 16 megs of memory and PCI Local Bus Video.
+
+  For the SVGA modes, a VESA compliant video card is required.  Please
+  see your video card's manual for info on how to find out if your card is
+  VESA compliant.  If yours is not VESA compliant, you will need to use a
+  software driver to provide this compliance.  We suggest a driver such as
+  UNIVBE.  If you have the registered CD-ROM, Univbe can be found on the CD-ROM
+  in the \goodies\univbe directory.  If you have the shareware version of
+  Duke3D, you must obtain Univbe on your own.  It can be obtained at any of 3D
+  Realms' online support forums (See "3D Realms Online" at the bottom of this
+  document for contact information).  To install Univbe, copy the files from
+  the \goodies\univbe directory on the CD-ROM to a temporary directory on your
+  hard drive, change to that directory, and type "INSTALL".
+
+þ For game play, the following devices are optionally supported:
+  Keyboard, Mouse, Joystick, Gravis GamePad.
+
+þ The following sound cards/devices are also optionally supported:
+  For Music: Gravis UltraSound, Sound Blaster (all of them), SoundMan16,
+             Pro Audio Spectrum, SoundScape, WaveBlaster, Sound Canvas,
+             Adlib, and General MIDI.
+
+  For SFX: Sound Blaster (all of them), Gravis UltraSound, SoundMan16,
+           Pro Audio Spectrum, SoundScape, Disney/Tandy Sound Sources.
+
+  There is no support for the PC Speaker.
+
+                           ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                           ³HOW TO PLAY DUKE NUKEM 3D³
+                           ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+This section will give you general guidelines on how to play Duke Nukem 3D.
+Due to limitations of this document, pictures of the various objects and
+menus cannot be provided.  If you have the registered version of Duke Nukem
+3D, please consult your manual for more detailed information, as well as for
+some example pictures.
+
+þ STARTING A NEW GAME
+
+  To start a game of Duke Nukem 3D, you need to go to your Duke Nukem 3D game
+  directory and type "DUKE3D" (without the quotation marks).  Once at the Main
+  Menu, select "New Game" to start a game.  If you want to learn how to start
+  a multi-player game, please see the section of this file titled, "How to Set
+  Up & Play a Network (or Modem/Serial) Game".  Remember, you can press F7
+  right now to bring up the table of contents, which will let you jump to any
+  part of this file.
+
+  Once you've selected "New Game", you will be prompted for the name of the
+  episode you wish to play.  Once you make your selection, you will be
+  prompted to choose a difficulty level.  You can choose from four different
+  difficulty levels:
+
+  1) Piece of Cake - The easiest mode.  Few enemies and lots of stuff.
+  2) Let's Rock    - The Default Setting.  Normal difficulty.
+  3) Come Get Some - For Experienced Players.
+  4) Damn I'm Good - For Experts Only.  Lots of enemies, plus they respawn!
+
+  Once you've made your selection, the game will load.
+
+þ CONTROLLING DUKE NUKEM
+
+  After you are in the game, you have many different keys that control Duke.
+  You can get a complete listing of the default keys by pressing the F1 key
+  during gameplay.  Some of the basic controls used to play Duke Nukem 3D are:
+
+  Arrows -> Move Duke ³ Shift    -> Run      ³ 1 to 9 -> Weapons
+  A      -> Jump      ³ CapsLock -> RunLock  ³ Tab    -> Map
+  Z      -> Duck      ³ Ctrl     -> Fire     ³ [ or ] -> Inventory Select
+  Alt    -> Strafe    ³ Spacebar -> Open/Use ³ Enter  -> Use Inventory Item
+
+  You can also look up and down by pressing Page Up or Page Down.  Using the
+  Home and End keys aims up or down.  The Insert and Delete keys will let you
+  look left and right without turning that direction, and the 5 on your number
+  keypad will return your view to center.  You can also use "U" to turn on a
+  mouse aiming control system, and "I" to turn on crosshairs for aiming.
+
+  There are more options than these:  press F1 during gameplay to see a
+  complete listing of all default controls.  Any of these controls can be
+  altered to whatever you want them to be by selecting the "Controller Setup"
+  option in the setup program.  Please see the section on "Advanced Controller
+  Setup for information regarding controlling your controller.
+
+þ THE STATUS BAR
+
+  During game play, the status bar at the bottom of the screen reveals plenty
+  of info.  Here is a description of all the items in the status bar, from
+  left to right:
+
+  HEALTH  - Shows Duke's health level.  If this drops to zero, you're dead.
+  ARMOR   - Shows the percentage of Duke's armor that is left.
+  WEAPONS - Shows the status of Duke's weapons.  For each weapon, there is
+            a two digit number.  The first number is the amount of ammo you
+            have for that weapon, and the second is the max amount of ammo
+            possible for that weapon.  If the numbers are brightly lit, this
+            means it is the currently selected weapon.  If it is of medium
+            brightness, it means you have the weapon, but it is not currently
+            selected.  If it is dark, it means you have not found that weapon
+            yet.
+  AMMO    - Shows the amount of ammo left for the currently selected weapon.
+  INV     - Shows the percentage and status (if applicable) of the currently
+            selected inventory item.  To change the currently selected item,
+            use either the [ or ] key.
+  KEYS    - Shows the keys currently in your possession.  Keys are required to
+            unlock certain doors in the game.  Once you have used a key to
+            unlock a door, the key used no longer appears in this screen.
+
+þ DUKE'S WEAPONS
+
+  There are several weapons Duke Nukem can have in his arsenal.  All of them
+  will be listed here.  Pressing the number of the weapon (using the top row
+  of your keyboard) during game play will activate that weapon, unless you
+  don't have it or have run out of ammo for it.  Weapons 7 through 9 are only
+  available in the registered version of Duke Nukem 3D.  Each of these weapons
+  can be recharged with ammo found scattered around the levels.  Each weapon
+  has its own type of ammo.  For example, if you find a pistol ammo pack,
+  you cannot use it with the Chaingun cannon.
+
+  1) Duke's "Mighty Foot".  You can use this to kick your enemies.  You can
+     never run out of ammo for this, but if you've only got your foot left,
+     you are in big trouble.  This can also be used by pressing the tilde
+     key (~) when another weapon is selected.
+
+  2) Pistol.  This is a rapid fire pistol which does minimal damage.  Requires
+     several shots to kill most enemies, and is not effective against boss
+     creatures.  This weapon will need reloading after 12 shots.  The reload
+     is automatic, but can take a couple of seconds during which you can't
+     fire.  This weapon has an ammo limit of 200.  Ammo packs for this weapon
+     found in the game have 12 rounds in them.  If you find a pistol in the
+     game, it will already have 48 rounds in it.
+
+  3) Shotgun.  This shotgun carries a far more powerful blast than the pistol,
+     but has to reload (reloading is automatic) after every shot.  Reloading is
+     done by pump action, which is quicker than the pistol's reload.  The
+     shotgun can take down all of the lower enemies with a single blast.  This
+     weapon has an ammo limit of 50.  Ammo packs for this weapon found in the
+     game have 10 rounds in them.  If you find a shotgun in the game, it will
+     already have 10 rounds in it.  If you get a shotgun from a Pig Cop, the
+     ammo in it will depend on how many shots that Pig Cop has fired.
+
+  4) Chaingun Cannon - This rapid fire weapon is a good weapon for dispersing
+     several enemies at once, as it has a powerful blast.  Beware, though:
+     this weapon fires very rapidly and uses lots of ammo!  This weapon has
+     an ammo limit of 200.  Ammo packs for this weapon found in the game will
+     have 50 rounds in them.  If you find a chaingun cannon in the game, it
+     will have 50 rounds already in it.
+
+  5) RPG (Rocket Propelled Grenade) - This rocket launched weapon is great for
+     dealing with enemies from a distance.  When the grenade hits, it explodes
+     with enough force to affect anything right around it.  This weapon can
+     take out almost any enemy except a boss creature with a single, direct
+     shot.  This weapon has an ammo limit of 50.  Ammo packs for this weapon
+     found in the game will have 5 rounds in them.  If you find an RPG in the
+     game, it will have 5 rounds already in it.
+
+  6) Pipe Bombs - This weapon is great for setting traps.  When you use it,
+     you will see Duke toss the bomb out in front of you.  You will then see
+     your thumb-activated detonator.  To blow up the bomb, just press fire
+     again.  There is no maximum range to the detonator:  you can be completely
+     on the other side of the level and still explode your bomb with it.  You
+     can use more than one pipe bomb at once.  After you throw the first one,
+     press "6" on the top row of your keyboard.  You can now throw another
+     bomb.  Holding down the fire button for a longer period of time will cause
+     the pipe bomb to travel further.  If you are kneeling when you release
+     the pipebomb, it will just go out in front of you and hardly travel
+     anywhere at all.  You can carry a maximum of 50 pipe bombs.  Ammo packs
+     for this weapon found in the game will have 5 pipebombs.
+
+     THE FOLLOWING WEAPONS APPEAR ONLY IN THE REGISTERED VERSION OF DUKE3D.
+
+  7) Shrinker - This slick weapon captured from the aliens will shrink your
+     enemies to pint-sized for several seconds.  During that time, Duke can
+     stomp and squish the shrunken foes by walking on top of them.  Be careful
+     when around mirrors!  This weapon has an ammo limit of 50.  Ammo packs
+     for this weapon have 5 shots in them, and a found shrinker comes loaded
+     with 10 shots.
+
+  8) Devastator - Straight out of the Pentagon's top secret labs comes this
+     double barreled brute of a weapon which lets loose swarms of miniature
+     stinger missiles in the direction of your enemies.  All out mayhem, or
+     shot controlled bursts - it's all up to you!  This weapon has an ammo
+     limit of 99.  Ammo packs for this weapon have 15 shots in them, and a
+     found devastator will have 15 shots in it.
+
+  9) Laser Tripbomb - Another strategic device which you place on flat-
+     walled surfaces.  After a 2 second delay, a bright red laser beam is
+     emitted across to the opposite wall.  Anyone or anything crossing the
+     beam sets off a powerful directional blast.  You had better get out of
+     the way when you set them!  Perfect for setting devious traps and
+     barriers.  This weapon comes in single units only, and you can carry a
+     maximum of ten of them at any one time.
+
+  0) Freezer - Streams of powerful molecular discharges ricochet through the
+     environment as this weapon chills its victim down to the point of death
+     and ultimate crystallization.  Once an enemy is frozen, you'll have only
+     a few seconds to shatter him beyond the point of recovery, else thawing
+     will ensue.  This weapon has an ammo limit of 99.  Ammo packs will have
+     25 shots in them, and a found freezer comes loaded with 25 shots.
+     NOTE: During a Multi-Player game, if you or your friends die, the dead
+           player will sometimes drop their currently selected weapon.  If
+           this weapon is picked up, all the ammo that was in that weapon will
+           transferred to whomever picked it up.  The amount of ammo obtained
+           from such a weapon pickup depends on how much ammo the player had
+           when they were killed.
+
+
+þ INVENTORY ITEMS
+
+  There are several items that Duke can find and use to help him during the
+  game.  Unlike normal items, these are kept until you select and use them.
+  Here is a list of the items, along with a brief description of each:
+
+  1) Medkit - A large white health pack.  This carries a maximum of 100% of
+     additional health.  When you are low on health, you can select this to
+     bring your health back up to 100%.  The amount used to do this will be
+     subtracted from the amount stored in the Medkit.  A shortcut to selecting
+     and activating the Medkit is avaliable by pressing the letter "M" during
+     gameplay.
+
+  2) Steroids - A small item that looks like a pill bottle.  This item, when
+     used, will make Duke run extremely fast.  He will also have a very strong
+     kick.  However, the time of this item is limited, and once activated, it
+     cannot be turned off.  When it runs out, you will have to find another
+     bottle of steroids in order to use it again.
+
+  3) Holoduke - This looks like a small translucent image of Duke.  Holoduke
+     is an item meant to fool your opponents (game enemies, or your friends)
+     during game play.  When activated, a duplicate of yourself pops up
+     wherever it is activated.  This Holoduke does not fire or move:  it just
+     stands there.  This is a very good decoy during DukeMatch.  Game enemies
+     will go after Holoduke instead of you if it is closer to them than you
+     are.  Holoduke has a limited lifespan, but can be turned on and off during
+     this time.  Once Holoduke is used up, you have to find another one to use
+     it again.  A shortcut to activating Holoduke is available by pressing "H"
+     during gameplay.
+
+  4) Jetpack - This item is silver, and looks like a backpack.  The jetpack
+     will allow Duke to fly pretty much anywhere.  It has a limited lifespan,
+     but can be turned on and off during use.  Be warned:  if you run out of
+     jetpack fuel when you are very high up in the air, Duke will fall to his
+     death.  A shortcut to activating this is to press "J" during gameplay.
+     Once activated, you control the jetpack by either pressing the Jump key
+     to go up, the Duck key to go down, or "J" again to turn it off.  To use
+     the jetpack, you need to use whatever keys are defined for duck and jump
+     to go up and down.  By default, these keys are "A" and "Z".
+
+  5) Night Vision Goggles - These are dark brown, and look like glasses.
+     The Night Vision Goggles will let you see in very dark areas by making the
+     area you are in look brighter.  They have a limited lifespan, but can be
+     turned on and off during this time.  A shortcut to activating these is
+     available by pressing "N" during gameplay.
+
+  6) Scuba Gear - Looks like a backpack with two airtanks on it, and is an
+     orange-yellow color.  It has a limited lifespan, and is automatically
+     activated whenever you go underwater.  This protects Duke when he is
+     submerged.  If it runs out, or if you go underwater without this, Duke
+     starts taking damage.  When you are swimming, you use the duck and
+     jump keys to move up and down underwater.  By default, these are "A" and
+     "Z".
+
+  7) Protective Boots - These look like a small pair of boots.  These will
+     protect you from the greenish radioactive slime that runs in the sewers
+     on many levels.  They are automatically activated whenever you walk on
+     the slime.  They have a limited lifespan.  When they run out, or if you
+     don't have them, walking in the slime will hurt you!
+
+  There are more inventory items in the registered version.  Please see your
+  registered game manual for information on the items listed here, as well as
+  the extra registered-only items.
+
+þ REGULAR GAME ITEMS
+
+  There are some other items that are not inventory items that Duke will
+  encounter during game play.  These items are used immediately when hit, and
+  cannot be stored for later use like inventory items can.  They are:
+
+  1) Small Medkit - This item gives an instant boost of 10 percent health, but
+                    will not raise your health past 100%.
+  2) Large Medkit - This item gives an instant boost of 30 percent health, but
+                    will not raise your health past 100%.
+  3) Healing Atom - This item looks like a blue atom.  It will give you an
+                    instant boost of 50% health.  This item will allow your
+                    health to go over 100%, but not past 200%.
+  4) Armor        - This item will give you extra protection against attacks.
+                    It will cause you to take damage at a slower rate.
+  5) Keycards     - There are three types of keycards you can find in the
+                    game.  These are red, yellow, and blue.  Each one opens
+                    a locked door with a lock of the same colour.
+
+
+þ GAME ENEMIES
+
+  Here are the enemies that Duke Nukem will encounter during the game:
+
+  1) Assault Trooper
+     The Assault Trooper is the basic alien ground assult trooper sent by the
+     ruthless alien leaders to serve as the first offensive wave against Earth's
+     defenses.  These guards are generally brownish in colour and wear green
+     jackets.  They attack using a laser pistol, and they can attack from the
+     air by using jetpacks.  Though moderately armored, some Troopers have
+     exhibited high resistance to injury.  Take precautions that a fallen
+     Trooper stays that way - fallen.  When these characters are killed, they
+     will sometimes drop pistol ammunition that you can take and use.
+
+  2) Assault Captain
+     These enemies are the same as the basic Trooper in all aspects, except
+     that they wear red jackets instead of green ones.  In addition to this,
+     Assualt Captains have a wrist-mounted Phase Induced Teleporter Device
+     (PITD) capable of physically translocating its user to any destination
+     within the device's range.  Used as a tactical assult instrument, the
+     PITD enables the Assault Captain to launch surprise attacks against his
+     intended human targets at will.  When these characters are killed, they
+     will sometimes drop pistol ammunition that you can take and use.
+
+  3) Pig Cop
+     The Pig Cops are mutated alien operatives positioned to supress residual
+     human opposition and to police the new centres of alien power on Earth.
+     Their distinct warthog-like appearance and aggressiveness make them easy
+     to spot, but difficult to overcome.   They brandish a 10 guage shotgun
+     and have a special surprise ground level attack.  These characters have
+     extremely high intolerance to the presence of humans, and exhibit blind
+     rage when they detect human scent.  Also, protective body armour worn
+     beneath their uniforms give them added endurance. When killed, this
+     character may drop either their shotgun or body armour.
+
+  4) Recon Patrol Vehicle (RPV)
+     This sleek and deadly anti-gravity powered reconnaissance vehicle is
+     operated by specially trained Pig Cops for the purpose of maintaining
+     alien control in areas of human resistance.  The attack mode of this craft
+     is aerial strafing by side mounted laser cannons.  The pilots of these
+     craft are protected by an automatic pilot ejection mechanism that
+     activates milliseconds before impact during a crash.
+
+  5) Octabrain
+     This character's abundant brain mass and specialized trifocal vision
+     combine to make the Octabrain a formidable alien weapon against all
+     sentient life on Earth.   Their method of attack is a powerful blast of
+     mental energy released against its prey, thus weakening and confusing
+     its intended victim.  If the victim doesn't die from the mind blast, the
+     Octabrain's powerful razor sharp teeth are ready to finish the job.  The
+     Octabrain prefers dark and secluded habitats from which to wage its attack.
+     Their immense mental power is offset by a generally unprotected, though
+     tough and leathery, body.
+
+     The following characters appear only in the registered version:
+
+  6) Enforcer
+     With chaingun blazing, the armored Enforcer can make fast business of
+     dispatching any remaining human opposition.  Powerful hind legs enable
+     the Enforcer to leap to many places where an unsuspecting Duke may be
+     caught of guard... so beware.   The Enforcer may drop either chaingun
+     ammo or his ripper when he dies.
+
+  7) Sentry Drone
+     Mechanized death -- there's no better way to describe these airborne
+     alien watchdogs.  By the time you hear their high pitched whine as they
+     engage their anti-grav propulsion units, it's probably too late.   The
+     drone will swiftly collide with its target and explode with great force.
+     Latest intel suggests that the drones have been refitted with defensive
+     evasion microchips.
+
+  8) Assault Commander
+     The free-floating Assault Commander knows how to throw his weight around
+     as he engages his anti-grav spin-deck in your face.   When at greater
+     distances, he fires deadly rockets from his rear port which dangles below
+     his anti-grav spin-deck.   Worse case of hemmorhoids ever seen this side
+     of Delta Quadrant.  The Assault Commander may drop a supply of rockets
+     when killed.
+
+  9) Protozoid Slimer
+     It emerges from its egg case with a simple nervous system and only one
+     mission in life -- to suck your brains out through your nose and leave
+     you a lifeless heap on the floor.  The Protozoid Slimer is evasive as it
+     stretches its elastic body from ceiling to floor, and then creeps up your
+     pant leg for the coup de gras.   Get them before they get you.
+
+     These characters only appear once in each episode.  They're very powerful,
+     and very rare, so when you see them, LOOK OUT!
+
+  A) Battlelord
+     The hulking Overlord commands the alien attack forces on Earth and makes
+     the very ground he strides upon tremble.   His deafening roar splits the
+     air as his rapid fire artillery and mortar rounds tear your body asunder.
+     He has no known weaknesses... only relentless attacking will make Duke
+     prevail.  The Battlelord does appear in Episode 1 once, and sometimes
+     appears in Episodes 2 and 3 scattered throught the levels.
+
+  B) Overlord
+     Little is known about this alien biological weapon except that it is
+     capable of unleashing powerful rocket attacks from it's surgically
+     implanted dual launching system on its massive back.  It's behavior and
+     weaknesses are completely unknown at this time.  The Overlord appears
+     only in Episode 2.
+
+  C) The Cycloid Emperor
+     The ultimate leader of the alien attack force.   No human has managed to
+     get close enough to report on it and live.   Extreme caution is urged.
+     The Cycloid Emperor appears only in Episode 3.
+
+
+                          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                          ³HOW TO USE THE SETUP PROGRAM³
+                          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+If you want to play a network, modem, or serial game, you must use the
+SETUP.EXE program found in your game's directory.  You also need to run the
+setup program to configure your sound card, controller, and video mode.
+Here is a brief summary of the options available in the Duke Nukem 3D setup
+program:
+
+þ SOUND SETUP
+
+  This option will let you configure your sound and music options.  Use this
+  to tell the game which sound card and music card your computer has.
+
+þ SCREEN SETUP
+
+  This option will let you pick which video mode you wish to play in.  The
+  SVGA options require the use of a VESA compliant video card.  Check your
+  video card's manual for info on whether your card is VESA compliant.
+
+þ CONTROLLER SETUP
+
+  This option will let you choose what controller(s) you wish to play with,
+  and will allow you to customize the controls for them.  If you wish to alter
+  the controller layout, this is the place to do it.  Please see the next
+  section, "Advanced Controller Setup" for information on some of the more
+  advanced uses of this section.
+
+þ NETWORK GAME
+
+  This option will let you configure and play a network game of Duke Nukem 3D.
+  Please see the section on "How to Set Up & Play a Network Game" for detailed
+  information on this.  Press F7 now to see an index of sections.
+
+þ MODEM GAME
+
+  This option will let you configure and play a modem game of Duke Nukem 3D.
+  Please see the section on "How to Set Up & Play a Modem Game" for detailed
+  information on this.  Press F7 now to see an index of sections.
+
+þ SERIAL GAME
+
+  This option will let you configure and play a serial game of Duke Nukem 3D.
+  Please see the section on "How to Set Up & Play a Serial Game" for detailed
+  information on this.  Press F7 now to see an index of sections.
+
+þ SEE THE DUKE NUKEM 3D HELP FILE
+
+  This option will let you see the file you are currently viewing.
+
+þ CHANGE SETUP FILENAME
+
+  This option will let you alter the name of the configuration file you are
+  working on.  With this option, you can have multiple configurations per game.
+  This way, if a friend comes and plays on your machine, he can have his own
+  keyboard (or anything else) layout, and it won't upset your configuration.
+
+  NOTE: Version 1.2 of Duke Nukem3D uses a different setup configuration file
+  than version 1.0 or v1.1 did.  If you run v1.2 on your old config file, it
+  will be automatically updated to the new format.  The old file will be
+  renamed for backup purposes.
+
+þ SAVE AND LAUNCH DUKE NUKEM 3D
+
+  This will save your configuration file and launch Duke Nukem 3D in single
+  player mode. Do not use this option if you wish to play a multi-player game.
+
+
+                           ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                           ³ADVANCED CONTROLLER SETUP³
+                           ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+There are three major enhancements to the control system in this version of
+Duke Nukem 3D.  The first is expanded joystick support,  the second is advanced
+control setup, and the third is mouse aiming.  Duke3D now supports a lot more
+joysticks than previous versions.  The newly added joysticks are as follows:
+
+  Keyboard and FlightStick: (compatible with Microsoft SideWinder)
+  Keyboard and ThrustMaster: (compatible with Logitech Wingman)
+  Keyboard and GamePad: native support for the Gravis GamePad
+
+The support of these new joysticks means that the hat switch is supported on
+those joysticks possessing one, and that rudder support has been added for
+people owning an external rudder.  The GamePad no longer functions as an analog
+joystick but rather as a digital one.  A special setup menu has been created
+just for the purpose of setting up the GamePad.  For all other joysticks, the
+"Setup Joystick" menu should still be consulted for changing joystick options.
+Enabling the rudder can be done under the Setup Joystick menu as well.
+
+The second major improvement involves the menu known as advanced control
+options.  Advanced control options allows you to redefine a controller
+completely.  This is accomplished through redefinable analog axes and being
+able to assign buttons to digitized axes as well. An analog device is one which
+returns proportional values based on the speed or extent to which the device
+is manipulated.  Examples of analog devices are mice and most joysticks.  A
+digital device is one which returns on or off values when it is manipulated.
+Examples of digital devices are the keyboard and the gamepad.  The new control
+system takes an analog input (such as the mouse or joystick) and digitizes it
+into an on or off.  Once this is done, it is possible to assign a button to the
+newly digitized input.  For example, suppose the mouse was setup in such a way
+that when it was moved up it translated into pressing the fire button and when
+it was moved down it translated into pressing the open button.  This would
+probably not be an advantageous setup, but it demonstrates how an axis can have
+buttons assigned to it. At the same time, however it would be possible to still
+use the analog component of that axis to move the player forward and backward.
+In essence the player would always fire when moving forward and try to open
+things when moving backward.  The advanced control options menu is broken up
+into advanced mouse setup, advanced joystick setup, and advanced throttle /
+rudder setup. Each these sub-menus allow you to define the control parameters
+for two axes.  The mouse and joystick each have two axes, X and Y, and the
+throttle/rudder compromise a third set of X and Y axes.  For each of these axes
+one can assign an analog function (either turning, strafing or moving) and
+optional digital ones.
+
+One should keep in mind that both analog and digital control options are active
+at the same time, so in most situations if you want to use an axes as an analog
+one, it should not be used a digital one as well.  When you first enter this
+menu, you will see how the axes are defined by default.  If you change any of
+the axes definitions, the only way to restore the default definitions is by
+deleting your setup file and starting over.
+
+Therefore, it is recommended that you understand how the system works before
+changing these advanced options.
+
+There is a new option located in the Setup Mouse menu, called "Mouse Aiming".
+When Mouse aiming is on, moving the mouse forward and backward pitches the
+player's head up and down.  Setup allows one to change the way in which the
+mode is activated.  The Mouse Aiming buttons is defaulted to be a toggle button
+meaning, that it must be pressed once to enter the "Mouse Aiming," and then
+pressed again to leave the mode.  If mouse aiming mode is set to momentary
+instead of togglable, "Mouse Aiming" is only active as long as the Mouse Aiming
+button is depressed.
+
+
+                          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                          ³DUKE 3D HELP & TROUBLESHOOTING³
+                          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+  Before contacting 3D Realms Technical Support, please try all of the things
+  listed in this file first!  If you do contact us, please do not do so unless
+   you provide the information requested at the bottom of this document.  We
+      cannot help if you do not provide us with the information requested.
+
+  3D REALMS CANNOT HELP YOU IF YOU HAVE ALTERED OR DAMAGED .CON FILES.  Do not
+              contact us for help if you have altered your files.
+
+þ 3D Realms strongly recommends that you consult your hardware and software
+  manuals for your system before you make any suggested changes to your
+  current system setup.  Your manuals will tell you if you are about to make
+  changes that may irreparably alter your computer or its configuration.
+  Modifying your system or software can be dangerous if not done properly.
+  3D Realms will not be able to assist you with any problems resulting from
+  such modifications.
+
+þ If you get an error that has the words "Granular Limit Error" in it, it
+  means your DRAM speed is too fast.  You'll need to go into your CMOS and
+  slow it down.  Info on how to do this will be in your computer or your
+  motherboard's manual.
+
+þ If you get the error "Exec Error: No such file or directory", it's likely you
+  have selected the controller configuration "Keyboard and External".  Go back
+  and reconfigure your controller.  Do not select the "External" controller
+  unless you have a controller or a device that specifically tells you that you
+  need to select this.
+
+þ If you have an ATI Mach64 video card and cannot access the higher SVGA
+  modes, check your C:\MACH64 directory for the file m64vbe.com.  Run it
+  before you play Duke, and you should be OK.  If you do not have this file,
+  contact ATI for an update.
+
+þ If you have a Matrox Millenium video card and cannot get your video working
+  properly, please make sure the BIOS on your video card is at least v1.9.  If
+  it is not, contact Matrox for a BIOS upgrade.
+
+þ If you have a Diamond SpeedStar video card, disable Zero Wait State.
+
+þ If you are running a Compaq computer with a VGA card and the game tells
+  you that you do not have a VGA card, or if you experience lockups on a
+  Compaq computer with a VGA card, you will need to contact Compaq for a
+  special video driver.  The reason for this is that Compaq has some video
+  cards that do not conform to all proper detection methods.  There is a
+  device driver available from Compaq that will fix this problem.  The
+  driver's name is FINDVGA.SYS.  This file used to be available on their BBS
+  with the filename of SP0117.ZIP, but as of the writing of this document,
+  it is not available.  Please contact Compaq if you cannot locate the file.
+
+þ This game supports the VESA VBE standard for SuperVGA graphics.  Many Super
+  VGA graphics cards are VESA VBE comaptbile atthe hardware level, requiring no
+  special action on your par to get the game running correctly.   If you are
+  having problems running this game with the graphics card in your computer,
+  try the following steps:
+
+  1) If you have the VESA VBE driver that came with your graphics card, then
+     install the driver and try to run the game.  Most VESA VBE drivers can be
+     installed from a program that you run at the DOS command line.  Consult
+     the documentation that came with your graphics card or computer system for
+     installation instructions and VESA VBE compatibility.
+
+  2) If you cannot find a VESA VBE driver for your graphics card, call your
+     graphics card or system manufacturer or dial up their BBS, CompuServe
+     forum, or Internet site.  You will most likely be able to download a
+     driver or have them send you one by mail.
+
+  3) If you do not have a VESA VBE driver for your graphics card or your VESA
+     VBE driver does not work with the game, then try the Universal VBE driver,
+     UniVBE.  UniVBE is included with the registered CD-ROM of Duke Nukem 3D,
+     and can be found in the directory \goodies\univbe on the CD.  Please note
+     that while we have included UniVBE for your convience on the CD, it is a
+     shareware product produced by a different company.  If it works for this
+     game and solves compatibility probelsm for you, then you may want to
+     continue using it for this and other games.  If you continue to use it,
+     you should register the program.  To register UniVBE, follow the
+     instructions onscreen during the UniVBE installation procedure.
+
+  To install Univbe, go to the \goodies\univbe directory on the Duke Nukem 3D
+  CD-ROM, and type install.  Installation instructions are on screen.  If you
+  are having problems installing UniVBE, please contact Scitech.  UniVBE is
+  not a 3D Realms or Apogee program, we cannot help with it.
+
+þ If you run the game and get an error during loading that says something like
+  "* ERROR!(L63) Parameter 'BURNING_FLAME' is undefined", or some other error
+  relating to the CON files, and then some sort of comment like "Errors found
+  in game.con file, Use defaults (Y/N)?" it means that your game configuration
+  (con) files have been altered to the point where the game will not run
+  properly.  We strongly urge you to reinstall at this point.  The .CON files
+  are ASCII text files which can be edited and usedd to radically alter the
+  game parameters.  We strongly urge you to not change these unless you know
+  what you are doing.  If you corrupt these and run the game anyway, the game
+  will likely crash.  To correct the problem, reinstall.
+
+  3D REALMS CANNOT HELP YOU IF YOU HAVE ALTERED OR DAMAGED .CON FILES.  Do not
+  contact us for help if you have altered your files.
+
+þ If you have a NexGen/586 CPU/Motherboard, you most likely can't get the game
+  running.  Try going into your CMOS and look for a setting called "Alternate
+  Instructions".  If it is set to OFF, set it to ON. If this doesn't work,
+  NexGen has a fix on their World Wide Web site called the Q87 floating point
+  emulator.  Their Web site can be reached at http://www.nexgen.com.
+
+þ If you have a Creative Labs Sound Blaster 16 and some sort of daughterboard
+  add-on card like the WaveBlaster or Roland Sound Canvas daughterboard, you
+  may have trouble getting the MIDI music and SFX working properly.  To fix
+  this, first try selecting WaveBlaster as your music device, even if you don't
+  actually have a true WaveBlaster.  If this doesn't work, there is a fix for
+  this type of problem available from Creative Labs.  This fix is called the
+  "Sound Blaster MPU401 Patch".  It is can be found on any of the Apogee / 3D
+  Realms official file areas listed at the bottom of this document under the
+  filename WAVEPTCH.ZIP.  This file contains a program that, when run, sets up
+  the WaveBlaster port properly so that the game can recognize and use it.
+
+  Please note:  if you have to use the WAVEPTCH.ZIP fix, you will most likely
+  need to run the fix program every time you want to play Duke Nukem 3D.  The
+  program should be run just before you start the game.  Some users have
+  have reported that their cards require the fix to be run even when they exit
+  the game and immediately restart it.  At this point, 3D Realms has not been
+  able to determine why this is required.
+
+þ If you hear static when you are playing with a Sound Blaster or
+  compatible card, make sure to turn the MIC and LINE volumes to zero.
+  Your card may be seeing input from these, resulting in static.  For a
+  Sound Blaster Pro, the program that adjusts these is called SBP-SET:  see
+  your card's manual for precise instructions on how to do this.  If you
+  still continue to hear static after doing this, try disconnecting any
+  parallel port devices.  IRQ5 and IRQ7, which are used by sound cards, are
+  often frequently used by printers as well.  If you have both plugged in,
+  the result may be static and poor sound performance.
+
+þ If you have an AWE32 and are having problems initializing the sound, check
+  the SET BLASTER line.  Make sure that E620 is in there.  Check the section
+  on "WHAT IS THE SET BLASTER COMMAND.." in this document for more information.
+
+þ If you have an AWE32 Sound Card and get an "MPU-401 Initilization Error"
+  message, you will need to turn your computer totally OFF, wait about 5-10
+  seconds, and then turn it back on again.  Delete the DUKE3D.CFG file from
+  your game's directory, then run the SETUP.EXE program again and try
+  reselecting your music/sfx.  This error is caused by picking incorrect
+  settings:  if you pick the wrong settings for an AWE32, you need to power
+  down and retry, not just reboot.
+
+þ If it seems like sounds that should be coming out of your left speaker are
+  instead coming out of your right speaker (or vice-versa), you can fix this
+  in the sound menus of the SETUP.EXE program.  Go to the Main Duke3D menu,
+  choose the options menu, and then the sounds menu.  From there, you can
+  toggle the "Flip Stereo" option on or off.  This should correct the problem.
+
+þ If you are getting an error that says "Cannot play due to an invalid or
+  coflicting IRQ", please see the following paragraph.
+
+þ If you have a Sound Blaster (or a Sound Blaster clone) card and you are not
+  getting sound effects, you most likely have your sound card configured
+  incorrectly.  Most clone cards' setup programs do not properly set up a
+  SET BLASTER line in your AUTOEXEC.BAT file, or do not set it up at all.  This
+  is also the case with some new systems that have sound cards already
+  installed.  The SET BLASTER command is used by the game's sound engine to
+  determine where to send sound events for Sound Blaster and compatible cards.
+  If this command is incorrect or missing, you will either not hear sounds or
+  will experience sound distortion.  To correct this, please read the section
+  of this file titled "What is the 'SET BLASTER' Command?" (Press F7 right now
+  to see a list of sections).  Also, please consult your sound card's manual
+  for information regarding Sound Blaster Emulation to find out what port
+  address (or "base address"), IRQ, and DMA channel is being used by your card
+  for Sound Blaster Emulation.  This information will be needed in order for
+  you to follow the instructions in the "SET BLASTER" section of this document.
+
+  This problem sometimes also affects people with true Sound Blaster cards,
+  especially if you are running Windows 95 and are using the Win95 drivers.
+  If you are running Windows 95 and don't have any sounds when playing in
+  MS-DOS Mode, you probably do not have DOS-based Sound Blaster drivers loaded.
+  Please check your sound card's manual for info on loading DOS-based drivers
+  for your card.
+
+  If your card does not have information concerning the SET BLASTER command
+  (or loading DOS-based drivers) in its manual, or if your system or card did
+  not come with a sound card manual, please contact the company that made your
+  card or system (or the place you purchased the card or system from) before
+  calling 3D Realms Technical Support.  Since sound cards differ so much from
+  brand to brand (and sometimes even within the same brand and model), we
+  cannot provide detailed assistance for every sound card on the market.  Your
+  card or system manufacturer (or dealer) can usually provide much faster help
+  for basic sound card problems than 3D Realms' Technical Support can.
+
+  Here are a few more things you can try to get your sound card going:
+
+  1) Check your sound card's manual on Sound Blaster emulation.  There may be
+     some driver that you are not loading, or some switch you are not properly
+     setting.  This is especially true for Plug And Play cards when you are
+     running in DOS mode on a Win95 machine.
+
+  2) Load up your duke3d.cfg file (or the one you're using) into an ASCII text
+     editor, and look for the line "BlasterDMA16=5".  Change it to read
+     "BlasterDMA16=1", it may make a difference.
+
+  3) Check and make sure that you have the most up to date drivers for your
+     sound card.
+
+þ If you have a GUS and you are not getting sound effects, or if your GUS
+  sound effects are scratchy or distorted, make sure your GF1 IRQ is set to
+  7 or lower.  This is controlled by the SET ULTRASND= command in your
+  AUTOEXEC.BAT file.  A sample of this command line would be:
+
+                        SET ULTRASND=220,1,1,7,5
+
+  The next to last digit on this line (the 7, in this example) is your GF1
+  IRQ.  This number must be 7 or less for Duke3D to operate properly.  If it
+  is higher than 7, you will need to edit your AUTOEXEC.BAT and change it
+  to 7 or lower.  Save the change, exit your editor, and reboot so that the
+  change will take effect.
+
+  Please note that this is not a limitation of the sound engine used by Duke
+  Nukem 3D.  Rather, it is a performance limitation imposed by the current
+  generation of DOS extender technology, including the DOS/4GW extender used
+  to create this game.  In almost every case, support for interrupts higher
+  than 7 would result in an unacceptable slowdown of the game.
+
+þ If you have a Packard Bell computer and are using thier combo modem/sound
+  card but can't get any sound, try this.  In your c:\sound144\utility
+  directory there should be a program called setmode.exe.  Change to this
+  directory, and type "setmode /sbp".  This will tell the card to operate
+  in Sound Blaster Pro mode.  If it is operating in Windows Sound System
+  mode, you will NOT get any sounds, because the Windows Sound System is
+  not supported.
+
+þ If you are playing a network game, and get an error that reads something
+  like "General Failure reading Drive ..." it probably means you're trying
+  to play the game from a single shared copy on the work.  You can't do this,
+  you need to have the game installed on each local computer that wishes to
+  play the game.  Playing from a shared copy is not possible.
+
+þ If you are playing a modem or network game and get a "Fatal Sync Error -
+  Please Restart Game" message, this means that something has gone awry in your
+  game.  If this happens, the only way to resolve it is to restart your game.
+  Do not continue to play, as the game is unreliable at this point.
+
+  If you are playing a modem or serial game when this is happening, check these
+  things to make sure your parameters are set up correctly.
+
+  1) Make sure your port speed is at 9600.  DO NOT CHANGE IT.  There is no
+     advantage in opening the port speed any higher than 9600.
+
+  2) Use the default modem init string of ATZ.
+
+  If you are playing a network game when you get this error, try using a
+  different socket value in the setup program.  Also, if there is a slow
+  computer playing the game, it can cause this error.  Play with a faster
+  computer.
+
+þ If your modem initializes properly, but does not answer the line when an
+  incoming call is received, try adding V1 to your init string.  Also, make
+  sure that your port speed is set at 9600, and that you have the proper com
+  port selected.
+
+þ If your modem is not responding to the init string, first make sure you have
+  the proper com port selected in the setup program.  This is especially true
+  if you have a nonstandard com port like COM3 or COM4. If this is correct,
+  you can try any of the following suggestions to get it to respond:
+
+  ¯ Turn your modem off and on between attempts (especially if you have a USR
+    Sportster).  If you have an internal modem, this would consist of turning
+    your computer OFF (not just pressing your Reset button).
+  ¯ Add a space or a tilde (~) in front of the init string.
+  ¯ Add an extra AT in front of the init string.
+  ¯ Add a ^M at the end of the init string.
+  ¯ Make the init string ATZ instead of AT Z.
+
+  We strongly urge you NOT TO CHANGE THE DEFAULT MODEM INIT STRINGS UNLESS YOU
+  ARE SURE THE CHANGED SETTINGS WILL WORK.  Changing them tends to cause
+  problems, and you should only change them if the defaults do not work.
+
+
+þ If you see the error message "IPX & NetBIOS not detected", it means that you
+  are trying to run a network game of Duke3D without loading your network
+  drivers.  If this error occurs, consult the manual for your network on how
+  to load these drivers.  3D Realms cannot help with the setup and use of your
+  network.
+
+þ If you get an error message that says, "You don't have enough free memory to
+  run Duke Nukem 3D.  The DOS MEM command should report 6,500K (or 6.5 megs)
+  total memory free.", it means that you do not have enough free total memory
+  to run the game.  This is almost always caused by having sugh things as
+  memory managers (QEMM/EMM386), disk caches (SMARTDRV, Norton Cache), and
+  other programs loaded into memory.  These programs are usually loaded when
+  your system is first powered up (otherwise known as when you "boot" your
+  system).
+
+  The best way around this is to "boot clean."  This means to boot your
+  system without loading any unnecessary memory resident programs.  The
+  easiest way to do this is to create a bootable floppy disk according to
+  the instructions in your DOS manual (see the FORMAT /S command) and
+  create a file called CONFIG.SYS and a file called AUTOEXEC.BAT on that
+  disk.  Please refer to your DOS manual for instructions on creating these
+  files.
+
+  These files should contain the following lines:
+
+   CONFIG.SYS
+   ==========
+   FILES=30
+   BUFFERS=30
+   STACKS=9,256
+   <if your sound card requires a line in config.sys, put it here>
+   <if you use disk compression, make sure to load that driver>
+   <if you require a driver to access your hard drive, make sure to use it>
+
+   AUTOEXEC.BAT
+   ============
+   @echo off
+   <your path line>
+   <your prompt line>
+   <if your sound card requires a line in autoexec.bat, put it here>
+   MOUSE <if you play with a mouse>
+   SET BLASTER=<see section on SET BLASTER for more help on this line>
+
+  The <your path line> and <your prompt line> items in the sample
+  AUTOEXEC.BAT file refer to the lines that start with the words PATH and
+  PROMPT in the AUTOEXEC.BAT file that is on your C: drive.  These lines
+  are optional, but including them will make navigating your hard drive a
+  little easier.
+
+  If you are running Windows 95, you will need to to press the F8 key when you
+  see the "Starting Windows 95" message, and then pick the option that says
+  "Command Prompt Only".  This will prevent you from going into the GUI
+  (desktop) portion of Windows 95.  Windows 95 is still capable of having
+  multiple boot configurations, and we strongly urge you to create one.
+  Please note that if you do this, you may not have access to your sound card
+  or mouse when in DOS.  If so, you will need to load DOS-based drivers for
+  your sound card or mouse.  Please check the respective manuals for your
+  sound card and mouse for info on how to load drivers for them in DOS.
+
+  If you have DOS 5, you will need to create a boot disk and make
+  CONFIG.SYS and AUTOEXEC.BAT files, using the above examples.  If you have
+  DOS 6 or higher, you have two ways of booting clean without the need for
+  a boot disk.
+
+  For DOS 6 and higher, the fastest way is to reboot your computer and
+  watch for a message that says "Starting MS-DOS" (IBM versions will say
+  either "Starting PC DOS" or "Starting IBM DOS").  When you see this
+  message, press your F8 function key.  You will then be prompted to
+  confirm each line of your current CONFIG.SYS and AUTOEXEC.BAT files.
+  This will allow you to temporarily turn off the programs that you do not
+  need or that may be causing problems.  ONLY ANSWER "YES" TO THE LINES
+  SHOWN ABOVE AND THE "OK to process AUTOEXEC.BAT?"  QUESTION.  When
+  finished, you will be left at a plain C:\> prompt.
+
+  NOTE:  Pressing the Left Shift or F5 function key at the "Starting
+         MS-DOS" prompt will not work properly.  Duke3D requires at least
+         30 available "file handles" to operate properly.  This is defined
+         by the FILES=30 statement in your CONFIG.SYS file.  If you bypass
+         your CONFIG.SYS file completely by pressing Left Shift or F5, you
+         are stuck with the DOS default of 8 file handles.  You will
+         experience errors if you attempt to run the game this way.
+
+  If you are more familiar with DOS, we strongly recommend that you set up
+  a multi-boot option.  These newer versions of DOS allow you to set up
+  mutliple boot configuration sections in your CONFIG.SYS and AUTOEXEC.BAT
+  files, mostly eliminating the need for boot disks.  Again, please consult
+  your DOS manual for instructions on how to create a boot disk, or a
+  multi-boot configuration using the parameters stated above.
+
+  Duke 3D is a protected mode program, and as such does not require the
+  services of such memory managers as QEMM, EMM386, etc.  Please read the
+  section of this file on protected mode programs for more information.
+
+þ If your copy of Duke3D locks up randomly and you have a sound card, you
+  might be experiencing a DMA conflict.  These are caused by having more than
+  one hardware device sharing a DMA (Direct Memory Access) channel with your
+  sound card.  DMA channels are used by Duke3D to send sounds to your sound
+  card.  When you have more than one piece of hardware on a single DMA channel,
+  the chip on your motherboard that controls DMA transfers may become confused
+  and send the sound to the wrong place.  When this happens, your system will
+  lock up.
+
+  Devices that usually cause DMA conflicts include CD-ROM drives, older
+  dedicated FAX boards, tape backup drives connected to an accelerator card
+  (not including tape drives plugged into your floppy drive controller cable),
+  and in newer systems, the ECP/EPP parallel port on your I/O card or on the
+  motherboard itself.  If any of these devices are present on your system, they
+  may be the source of your lockups.
+
+  DMA conflicts cannot usually be spotted by diagnostic software (CheckIt,
+  PC Tools SI.EXE, Norton Utilities NDIAGS, etc.).  3D Realms does not
+  recommend the use of such software to determine if you have a DMA conflict.
+  Instead, if you suspect a DMA conflict, try the following test:
+
+       1.  Run the SETUP program and select NONE for your Sound FX card.
+       2.  Play Duke Nukem 3D and watch for lockups.
+
+  If the game no longer locks up, then you were definitely experiencing a DMA
+  conflict between your sound card and some other device.
+
+  The ONLY way to resolve a DMA conflict is to physically move the conflicting
+  device to another DMA channel.  In all but the rarest cases involving devices
+  that "download" their configuration at boot-up time, you cannot do this
+  through software.  You also cannot solve the problem by simply unloading the
+  driver for the conflicting device.  Since this is a true hardware conflict,
+  the problem can persist even if the device driver is not loaded when you boot
+  your machine. In laymen's terms, booting clean won't solve the problem.  You
+  will most likely have to move a "jumper" (see your manuals for a description)
+  to physically reconfigure the conflicting device.  If you need assistance
+  with reconfiguring your device(s), please consult your system's manuals or
+  contact the manufacturer of the device(s) in question.  3D Realms cannot
+  provide assistance for reconfiguring your hardware.
+
+  For best performance, do not move your sound card to a different channel:
+  leave it where it is (usually channel 1 for 8-bit cards, or channels 1 and 5
+  for 16-bit cards).  Instead, move the conflicting device.  After you have
+  resolved the DMA conflict, you may re-run the SETUP program and re-select
+  your sound card under the Sound FX setup.
+
+  If your copy of Duke3D still locks up, you may wish to check some settings
+  in your CMOS configuration as a last resort.  If any of these are on, then
+  switch them off:   Hidden Refresh, Hardware Video Shadowing, Turbo Switching.
+  Also, if you have either of these, turn them on: HD1 Block Mode; IDE HDD
+  Block Mode.  Use these ONLY as a "last resort" fix - make sure you read the
+  rest of this file before you try these suggestions.
+
+þ If you are using a joystick and your performance seems erratic, make sure to
+  calibrate the joystick inside the setup program.  Also, check and make sure
+  that the joystick port you are using is speed adjustable.  If it is, then try
+  tinkering with the speed.  Check your port's manual for more info.
+
+  Please note that most game ports that are built into sound cards, I/O cards,
+  or motherboards are not speed adjustable.  Unless your port comes with
+  software that allows you to calibrate your port's speed, you can assume that
+  the port is not speed adjustable.
+
+  If your system does not have a speed adjustable game port, your only solution
+  may be to purchase one.  The reason for this is that most newer systems run
+  at a speed that is several orders of magnitude faster than your port can
+  send data.  In short, your system is outrunning your game port, and Duke3D
+  can't see what the port is sending since it doesn't come in fast enough.
+  Fortunately, speed adjustable ports such as the Gravis Eliminator or JDR
+  Microdevices' MCT Micro-III are inexpensive solutions to this problem.
+  (Note:  3D Realms does not endorse any of these products - they are listed
+  here only as examples of what is available.)
+
+  Finally, make sure you do not have more than one active joystick port on your
+  machine at any time unless you have a special game port card that has two
+  ports built onto it.  Two game ports cannot be active on two different cards,
+  since they use the same hardware address.  You must disable one port if your
+  system has two ports on two different cards.
+
+þ If you notice the game running slowly on your system, here are a few
+  suggestions on improving game performance.
+
+  ¯ Disable your disk cache.  Since Duke3D does its own internal caching,
+    external caches like SMARTDRV get in the way.  This can result in
+    anything from slow performance to complete lockups.  Disk caches also take
+    away memory that the game could use to operate more efficiently.
+
+  ¯ Disable your upper memory manager (QEMM, Qualitas Max 8, EMM386, etc).
+    Since Duke3D is a protected mode game, the services of these programs are
+    not needed.
+
+  ¯ Try reducing the screen size.  When playing the game, you can press either
+    '-' to reduce your screen size, or '+' to increase it.
+
+  ¯ Try reducing the amount of digital channels that you have set for sound
+    effects.  Some system configurations have problems with having Duke3D set
+    for higher than 4 digital channels.
+
+  ¯ Try reducing the mixing selection on your sound card from 16 bit to 8
+    bit.  This is done from the SETUP.EXE program, under the "SETUP
+    SOUND FX" menu item.  8 Bit Mono is the fastest music/sound combination
+    there is in Duke3D, so if you have slowdown problems, try selecting 8
+    Bit Mono.
+
+
+                         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                         ³DUKE 3D COMMAND LINE PARAMETERS³
+                         ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+þ There are a few command line parameters (also known as "switches") you
+  can use to alter game performance.  Some of these will help speed up the
+  game on slow computers, while others help to aid game play.
+
+  A command line parameter is something that you type on the command line
+  after the name of the program you're running.  The '/m' switch will be used
+  as an example.  To use that one, you would need to start the game like this:
+
+                                   DUKE3D /m
+
+  The command line parameters for Duke3D are stackable, which means that you
+  can use more than one at a time, if you need to.  An example of a stacked
+  set of command line parameters would look like this...
+
+                                  DUKE3D /m /t
+
+  Please note that while these are intended for use with the Duke3D game, you
+  can use them on the setup program.  The setup program will pass any command
+  line parameters that were given to it to the game.
+
+  Here is a list of the command line parameters you can use with Duke Nukem 3D.
+
+  ?                     ¯ Gives you a list of all the command line parameters.
+
+  /j                    ¯ Shows the version of the game you are running.
+  /ns                   ¯ Turns off all sound effects.
+
+  /nm                   ¯ Turns off music.
+
+  /g<file>              ¯ Uses Group <file> (default is DUKE3D.GRP)
+
+  /x<file>              ¯ Compiles alternate user.con file with name of <file>.
+
+  /r                    ¯ Record a Demo.  To play them back, just run the game,
+                          and they will be played back.  Do not end a level in
+                          a demo, or it will not be recorded properly.  In
+                          order for this to work, you also have to use the /v
+                          and /l parameter (and optionally the /s parameter).
+
+  /q#                   ¯ Turns on Fake Multi-Player.  This is used primarily
+                          by our level desingers to test add-on levels and
+                          various spawn related issues for multi-play only.
+                          This command does not generate computer controlled
+                          opponents for DukeMatch games.  This should not be
+                          used if you intend on playing a true multi-player
+                          game with other people.  # is number of fake players
+                          to use (1-8).
+
+  /v#                   ¯ Go directly to Level # (1,2,3 or just 1 in shareware)
+
+  /l##                  ¯ Go directly to Level ## (Varies by Episode Number)
+
+  /s#                   ¯ Use Skill Level # (where # is a number from 0 to 3)
+
+  /m                    ¯ Turns off Game Monsters during play.  This would have
+                          no real purpose for single play, and is intended for
+                          DukeMatch games only.
+
+  /t#                   ¯ Respawning Things.  This is intended for DukeMatch
+                          games, and is not meant for single play.  # can be
+                          either 0, 1, 2, or x.  0 means Monsters only, 1 means
+                          Items only, 2 means Inventory items, and x means all.
+
+  /c#                   ¯ Defines which type of Multi-Play will be used.  # can
+                          be either 0, 1, or 2.  0 means standard Dukematch.
+                          1 means Co-Op play, and 2 means "old" Dukematch.
+
+  /f#                   ¯ Send Fewer Packets during Multi-Player Mode.  This
+                          should never be needed during a modem, serial, or
+                          network game, and is intended only for places like
+                          TEN who use a slightly different arrangement which
+                          requires less traffic.  This would also be useful
+                          for programs such as Kali, JServe, etc....  # can
+                          either be 1, 2, or 4.
+
+  /i#                   ¯ Defines which type of network mode is used.  # can be
+                          either a 0 or a 1.  1 is meant 2-4 players, and 0 is
+                          meant for 5-8 players.  The difference is that
+                          packets with mode 0 are handled differently than
+                          in mode 1.  This paramter should not be used by the
+                          player, this is passed automatically by the setup
+                          program.
+
+  -8250                 ¯ Used by the setup program to tell the game that a
+                          slow serial card is in use.  This should never be
+                          used on its own.
+
+  -net                  ¯ Used by the setup program when a network game being
+                          played.  This should never be used on its own.
+
+
+                      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                      ³HOW TO SET UP AND PLAY NETWORK GAMES³
+                      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+NOTE: In order to play a Network game, you must have IPX/SPX or NetBIOS network
+      protocols loaded.  Please see your network manual, or contact your
+      network administrator for info on how to load these.  3D Realms cannot
+      help you with setting up your network.
+
+Here is a short summary of how to play a network game.  A more detailed
+explanation will follow.
+
+1) Run the setup program.  Once in the setup program, select "Network Game".
+2) Alter any of the options you wish, and then select "Launch Duke Nukem 3D".
+3) Once all the players are found, the game will load.  Once the game is at
+   the Main Menu, select "New Game".
+4) If you are Player 1, you will choose the game options.  All other players
+   will have to wait for Player 1 to select the game options.
+5) If you are player 1, select the difficulty, level, etc, and select "Begin
+   Play".  You're in!
+
+Here's a more detailed description of the Network Game Options:
+
+1) Run the Setup program, and select "Network Game".  From here, you can alter
+   several game parameters before actually launching Duke3D.  The parameters
+   you can change are:
+
+   Number of Players  -> This option will let you alter the total number of
+                         players to be found in your game.
+   Network Socket #   -> This will allow more than one simulteanous network
+                         game to occur at once.  If you change this, all people
+                         playing in your game must be using the same value, or
+                         you won't find each other.
+   Setup Macros       -> From here you can set up the text taunts you can use
+                         during DukeMatches.  During play, you activate them by
+                         hitting Control-F1 through Control-F10.
+   Change RTS File    -> This will let you alter the RemoteRidicule (tm) sound
+                         file.  By default, this is DUKE.RTS.  The RTS file is
+                         the file that contains recorded voice taunts you can
+                         throw at your opponents during DukeMatch.  These are
+                         activated by pressing Alt-F1 through Alt-F10.  NOTE:
+                         If you are using a custom RTS file, ALL players must
+                         have the same RTS file in order to hear your taunts.
+   Change Player Name -> When you are playing multi-player Duke, you are known
+                         to other players by the name you choose here.
+   Launch Duke Nukem  -> Once you've selected all your options, choose this
+                         to run the game!  DO NOT use the launch option from
+                         the Main Menu.  If you intend on playing a Network
+                         game, you must use this option.
+
+2) Once you've hit "Launch Duke Nukem 3D", the game will be run.  Once at the
+   Main Menu, hit "New Game".  If you are Player 1, then you will have a few
+   more things to do.  If you are any other player, you are done.  Just sit
+   wait for Player 1 to set all the options.
+
+3) If you are Player 1, you have several items you need to select before the
+   game will actually start.  They are:
+
+   a) Game Type    -> This is either DukeMatch or Co-Op.  Cooperative is a way
+                      of playing "against the game".  In other words, you and
+                      your friend(s) both play with each other.  DukeMatch
+                      means you and your buddies just blast each other!
+   b) Episode #    -> If you have the registered version, you can choose a
+                      specific Episode number.  For shareware, you cannot use
+                      this option.
+   c) Level #      -> You can choose which Level in the Episode to play here.
+   d) Monsters     -> This determines whether you want to have monsters in the
+                      game with you or not.  You can choose none, or any of the
+                      game difficulty levels here.  This will choose how strong
+                      the monsters are if they are there.
+   e) Record       -> If you have the registered version, you can record your
+                      game for all to see!  This will do nothing if you only
+                      have the shareware episode.
+   f) User Maps    -> If you have custom home-made levels and you place them
+                      in your Duke Nukem 3D directory, this is where you can
+                      choose them.  WARNING: If you choose a custom level, all
+                      players must have the level.  If they do not, or have a
+                      different version, the game will crash or lose sync.
+                      This option will do nothing if you only have the
+                      shareware version.
+   g) Begin Play   -> Once you've selected all the options, select this to
+                      begin your game!  That's it!
+
+4) Select Option "G" and start your new game.  If you are player 1, you can
+   restart a new level at any time by picking "New Game" again.  Everyone
+   will be taken to the new game.
+
+þ NETWORK PLAY NOTES AND REMARKS
+
+  ¯ You cannot join a game in progress.  All players must be present at the
+    start of the game.  If you quit, you cannot rejoin without everyone else
+    quitting and restarting.
+
+  ¯ If you are playing a network game and any player quits the game, the rest
+    will continue to play.
+
+  ¯ If Player 1 quits the game and the rest of the people continue to play,
+    the functionality (assignment of game parameters) will be reassigned.
+    Someone else will then be Player 1.
+
+  ¯ If you are playing in Co-Operative mode, pressing the letter "K" during
+    play will let you see through the eyes of your teammates.
+
+  ¯ When playing a Dukematch game, if you go to the next level in your game,
+    your weapons do not carry over to the next level.
+
+
+                      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                      ³HOW TO SET UP AND PLAY A MODEM GAME³
+                      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+NOTE: In order to play a Modem game of Duke Nukem 3D, you need a 100% Hayes
+      Compatible modem of at least 9600bps or faster.  We also strongly
+      recommend a serial port with a 16550 UART chip.  Older 16450's or 8250's
+      are not fast enough and can cause synchronization errors and slowdowns.
+      If you have one of these older ports, please upgrade to a serial card.
+      with a 16550 UART.  If you have a software supported or an emulated
+      port, it will not be detected as a 16550.  You need a TRUE 16550 for it
+      to be detected as such.
+
+  We strongly urge you NOT TO CHANGE THE DEFAULT MODEM INIT STRINGS UNLESS YOU
+  ARE SURE THE CHANGED SETTINGS WILL WORK.  Changing them tends to cause
+  problems, and you should only change them if the defaults do not work.
+
+Here is a short summary of how to play a modem game.  A more detailed
+explanation will follow.
+
+1) Run the setup program.  Once in the setup program, select "Modem Game".
+2) Make sure your COM Port is set up correctly (Select Setup COM Port).  We
+   strongly recommend picking a port speed of only 9600 until you are sure you
+   can connect properly.
+3) If you are calling, select "Phone Number List" and pick a phone number to
+   call, then select "Dial Your Opponent".  After this, pick "Launch Duke Nukem
+   3D".  If you are the one being called, select "Wait For Call", and then
+   select "Launch Duke Nukem 3D".
+3) Once all the players are found, the game will load.  Once the game is at
+   the Main Menu, select "New Game".
+4) If you are Player 1, you will choose the game options.  All other players
+   will have to wait for Player 1 to select the game options.
+5) If you are player 1, select the difficulty, level, etc, and select "Begin
+   Play".  You're in!
+
+Here's a more detailed description of the Modem Game Options:
+
+1) Run the Setup program and select "Modem game".  From here, you can alter
+   several game parameters before actually launching Duke3D.  The parameters
+   you can change are as follows.
+
+   --  You can only choose one of the first three options at any one time. --
+        -- The rest of these options are modem configuration options. --
+
+   Already Connected  -> Choose this if you have already connected with a
+                         terminal software package such as Qmodem or Telix.
+
+   Wait For Call      -> Choose this if you are playing a modem game and wish
+                         to have your friend call you.
+
+   Dial your Opponent -> Choose this if you are playing a modem game and wish
+                         to be the one who dials the phone.
+
+   Setup Com Port     -> This option lets you configure the COM port you wish
+                         to use for playing Modem Duke. This is where you would
+                         need to select COM 1 or 2, the IRQ, UART, and/or Port
+                         Speed.  We recommend against changing the IRQ or UART
+                         values unless instructed to by 3D Realms Tech Support,
+                         or unless you are 100% certain of what you are doing.
+
+   Setup Modem        -> Duke Nukem 3D used an advanced modem driver, and as
+                         such, you don't need to mess with fiddly init strings.
+                         The default of just "ATZ" will work with 99% of the
+                         modems out there.  If, for some reason, you find you
+                         need to alter your modem init string from ATZ, this is
+                         where you would do it.  Also, if you need to change
+                         from TONE to PULSE dialing, or add a 9 to get an
+                         outside line, or some other similar modem condition,
+                         this is where you would do it.
+
+   Setup Macros       -> This option lets you set up the text based taunts you
+                         can use during a DukeMatch game.
+
+   Change RTS File    -> This will let you pick a different RemoteRidicule(tm)
+                         sound file, if you have made or received one.  The
+                         default filename here is DUKE.RTS.  The RTS file is
+                         the file that contains recorded voice taunts you can
+                         throw at your opponents during DukeMatch.  These are
+                         activated by pressing Alt-F1 through Alt-F10.  NOTE:
+                         If you are using a custom RTS file, ALL players must
+                         have the same RTS file in order to hear your taunts.
+
+   Change Player Name -> When you are playing multi-player Duke, you are known
+                         to other players by the name you choose here.
+
+   Phone Number List  -> This option lets you set up a dialing directory of all
+                         your friends who play Modem Duke, so you don't have to
+                         enter their phone numbers every time you want to play.
+
+   Launch Duke 3D     -> Once you've selected all the options for your modem
+                         game, select this to start!
+
+2) Once you've hit "Launch Duke Nukem 3D", the game will run.  Once at the
+   Main Menu, hit "New Game".  If you are Player 1, you will have a few more
+   things to do.  If you are any other player, you are done.  Just sit back and
+   wait for Player 1 to set all the options.
+
+3) If you are Player 1, you have several items you need to select before the
+   game will actually start.  They are:
+
+   a) Game Type    -> This is either DukeMatch or Co-Op.  Cooperative is a way
+                      of playing "against the game".  In other words, you and
+                      your friend(s) both play with each other.  DukeMatch
+                      means you and your buddies just blast each other!
+   b) Episode #    -> If you have the registered version, you can choose a
+                      specific episode number.  For shareware, you cannot use
+                      this option.
+   c) Level #      -> You can choose which Level in the Episode to play here.
+   d) Monsters     -> This determines whether you want to have monsters in the
+                      game with you or not.  You can either choose none or any
+                      of the game difficulty levels here.  This will choose how
+                      strong the monsters are if present.
+   e) Record       -> If you have the registered version, you can record your
+                      game for all to see!  This will do nothing if you only
+                      have the shareware episode.
+   f) User Maps    -> If you have custom-made levels and you place them in your
+                      Duke Nukem 3D directory, this is where you can choose
+                      them.  WARNING: If you choose a custom level, all other
+                      players must have this level.  If they do not, or have a
+                      different version, the game will crash or lose sync.
+                      This option will do nothing if you only have the
+                      shareware version.
+   g) Begin Play   -> Once you've selected all the options, select this to
+                      begin your game.  That's it!
+
+4) Select Option "G" and start your new game.  If you are player 1, you can
+   restart a new level at any time by picking "New Game" again.  Your opponent
+   will be taken to the new game.
+
+
+                     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                     ³HOW TO SET UP AND PLAY A SERIAL GAME³
+                     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+NOTE: In order to play a serial game of Duke Nukem 3D, you will need a null
+      modem cable (not a serial cable with a null modem adapter).  We also
+      strongly recommend a serial card with a 16550 UART chip.  The older 16450
+      and 8250 chips can cause slowdowns and problems during setup and
+      gameplay.
+
+Playing a serial game of Duke Nukem 3D is quite easy.  All you need to do is
+make sure that you have your two computers connected via a null modem cable.
+After you have hooked the computers together, run the setup program and select
+"Serial Game".  From there, if you need to, you can configre your COM port
+(make sure it is using the correct port for your computer).  You can also alter
+such Dukematch items as Text taunt macros, the RTS (RemoteRidicule) file to be
+used, and your Player Name.  Once you've done this, select "Launch Duke Nukem
+3D".
+
+If you do not connect, check and make sure that the cable you are using is a
+true null modem cable.  Standard "straight-through" serial cables and (in most
+cases) serial cables with a null modem adapter will not work.  Also, check and
+make sure that both sides are opening the serial port at the same speed.  We
+strongly urge you to leave it at the default of 9600 until you are sure you can
+properly play the game.
+
+Player 1 and Player 2 are assigned at run time.  If you've been selected as
+Player 1, you have several items you need to select before the game will
+actually start.  They are:
+
+   a) Game Type    -> This is either DukeMatch or Co-Op.  Cooperative is a way
+                      of playing "against the game".  In other words, you and
+                      your friend(s) both play with each other.  DukeMatch
+                      means you and your buddies just blast each other!
+   b) Episode #    -> If you have the registered version, you can choose a
+                      specific Episode number.  For shareware, you cannot use
+                      this option.
+   c) Level #      -> You can choose which level in the episode to play here.
+   d) Monsters     -> This determines whether you want to have monsters in the
+                      game with you or not.  You can either choose none or any
+                      of the game difficulty levels here.  This will choose how
+                      strong the monsters are if present.
+   e) Record       -> If you have the registered version, you can record your
+                      game for all to see!  This will do nothing if you only
+                      have the shareware episode.
+   f) User Maps    -> If you have custom-made levels that you created or
+                      received and you place them in your Duke Nukem 3D
+                      directory, this is where you can choose them.  WARNING:
+                      If you choose a custom level, both players must have the
+                      level.  If they do not, or if they have different
+                      versions, the game will crash or lose sync.
+                      This option will do nothing if you only have the
+                      shareware version.
+   g) Begin Play   -> Once you've selected all the options, select this to
+                      begin your game.  That's it!
+            ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+            ³WHAT IS THE "SET BLASTER" COMMAND, AND WHY DO I NEED IT?³
+            ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+If you are using a Sound Blaster clone, then this section is of particular
+interest to you.  A good deal of Sound Blaster clones do not properly set up
+the SET BLASTER command.  If you have a clone card and do not get any
+sound (or poor/bad sound), this is probably why.
+
+Duke Nukem 3D (or any other Apogee/3D Realms game that uses the Sound Blaster)
+uses the SET BLASTER command to figure out where to send its sound output. A
+Sound Blaster card can have many different sound outputs, and since there are
+zillions of computers out there, a way needs to be used in order to tell the
+game where your sound card is located.  The SET BLASTER line is how we do it.
+Check to make sure that you have the SET BLASTER line in your AUTOEXEC.BAT
+file.  This code is an example, and isn't exactly what you need to put in your
+system, make sure to read the entire explanation of this command.
+
+NOTE: Some of these parameters (P, H, & E) are dependant on certain types of
+      cards.  For example, the E is only needed if you have an AWE32.  The
+      minimum requirements are to have the A, I, D, & T parameters.  The other
+      three may or may not be needed depending on what type of card you have.
+      Please read this entire section to see if you need any of them.  If you
+      are using a clone card, or some card that's not a "true" Sound Blaster,
+      then you will most likely only need A, I, D, & T.
+
+SET BLASTER=A220 I5 D1 T6 P330 H6 E620
+|   |       |    |  |  |  |    |  |
+|   |       |    |  |  |  |    |  |_______ AWE32 Only Parameter
+|   |       |    |  |  |  |    |__________ "High" DMA Channel
+|   |       |    |  |  |  |_______________ MIDI Port
+|   |       |    |  |  |__________________ Type of Card
+|   |       |    |  |_____________________ DMA Channel
+|   |       |    |________________________ Interrupt
+|   |       |_____________________________ Port Address
+|   |_____________________________________ Environment Variable
+|_________________________________________ DOS Command
+
+NOTE: There can be no spaces between the word BLASTER and the equal sign (=).
+If you have a space in there, your system will set the parameter incorrectly.
+Our games will not be able to recognize the command and will not work properly.
+
+These settings will most likely not be the ones you need for your board.  This
+is the case since the Port Address, Interrupt and DMA Channel can be set by
+adjusting "jumpers" on your sound card.  Some newer cards have this information
+controlled by software, so please consult your card's manual for more
+information on how to set these things.  You should also check your manual if
+you are unclear as to how to tell what settings your card is using.  This
+information *IS* important, so we recommended that you know precisely what the
+settings are.  If you are using a card that "emulates" the Sound Blaster, you
+should check your card's manual on how to set up the card for Sound Blaster
+emulation (if your card is not natively supported by this game).
+
+The settings shown in the above example are based on the defaults used for a
+Sound Blaster AWE32.  Here is an explanation of each setting, along with the
+most commonly used settings:
+
+The PORT ADDRESS is almost always 220.  This seems to be the default for
+most Sound Blasters and compatibles, regardless of brand.  Unless you know
+you've switched this away from 220, it's a safe bet it's still there.
+
+The INTERRUPT is something that varies from system to system.  IRQ 5 is most
+common on newer true Sound Blaster cards, while older Sound Blasters and some
+clones (regardless of age) default to IRQ 7.  While many IRQs are available,
+3D Realms does not recommend using IRQ 2 or IRQ 10.  Most of the people we
+run into who use IRQ 2 have difficulty getting their programs to run properly,
+unless they switch to a different IRQ channel.  Also, while IRQ 10 may work,
+we cannot guarantee that it will.  Finally, if you are using a Gravis
+Ultrasound or Ultrasound Max, you must use an IRQ of 7 or less.  The sound
+engine used in this game does not support the GUS default of 11.
+
+The DMA CHANNEL is one that causes some people problems.  By default, this is
+almost always set at 1.  Unless you have a specific need to change this, it's
+probably still at 1.  If you're running into lockups using digitized sounds
+with our games, this is probably where your problem lies. If you get lockups
+with a 3D Realms game that has digitized sounds and you have this variable set
+properly, try turning off the digitized sounds.  If the game now plays without
+locking up, you probably have a DMA conflict.  Please see the "Duke Nukem 3D
+Detailed Help & TroubleShooting" section of this file for instructions on
+fixing this problem.
+
+The TYPE OF CARD is something that is fairly easy to check out.  If you're
+running a non-Creative Labs sound card, then you want this to either be 1 or 3,
+depending on which card it is.  In the majority of cases, it will be a 1 if
+you are not using a "true" Sound Blaster.  If you do have a "true" Sound
+Blaster, then the variable is one of these...
+
+      1 for an original (old) Sound Blaster.
+      2 for an original (old) Sound Blaster Pro.
+      3 for a newer Sound Blaster 2.0 (Sound Blaster deluxe edition).
+      4 for a newer Sound Blaster Pro (SB Pro 2.0)
+      5 for a MicroChannel Sound Blaster (IBM PS/2 MCA-bus systems only).
+      6 for a Sound Blaster 16, Vibra 16, or an AWE32.
+
+As shown here, the age of the card can make a difference.  If you have an older
+card like the Sound Blaster 1.5, choose the appropriate number.  Clone cards or
+cards that emulate the Sound Blaster usually have a T variable of 1.
+Experiment to see what works best for you.
+
+The MIDI PORT parameter will only be needed if you are using a card that has
+MIDI capabilities.  Your sound card manual will tell you if you need this.  It
+is generally used only on true Sound Blaster cards, specifically the SB16 and
+higher.  If your card requires it, this is where you define what MIDI port you
+are using.  330 seems to be the default for most cards, so if you have such a
+card, and you haven't changed anything from factory defaults, this is probably
+where it still is.
+
+The HIGH DMA CHANNEL is something that is used primarily on Sound Blaster 16,
+Vibra 16 (built into some motherboards), and AWE32 cards.  This is not the same
+as the standard (or "low") DMA channel:  this is a different one.  This is only
+used if you're using a 16 bit sound card capable of playing 16 bit Sound Blaster
+sounds.  By default, this is usually 5, so unless you know that it's something
+else, it's probably still 5.
+
+Please note that this parameter can cause lockups on some systems.  Creative
+Labs' installation programs warn that some motherboards cannot handle 16-bit
+DMA transfers, which is used if you select the default high DMA channel of 5.
+If you experience game lockups, try reconfiguring your card and this setting to
+use DMA channel 1 (i.e., the same channel that is used for the D parameter).
+See your card's documentation for details on this problem.
+
+The E620 parameter is something that is needed _only_ if you have a Creative
+Labs AWE32 sound card.  If you have one of these, this parameter will have been
+set up properly assuming you've installed the software that came with the card.
+Check your AWE32 documentation for a more thorough explanation of what this
+paramter is used for.
+
+We get a lot of questions from people wanting to know why they have to use this
+if they don't have a true Sound Blaster.  It's simple, really - the command has
+NOTHING to do with what brand of sound card you have.  3D Realms games that use
+digitized sounds expect Sound Blasters and compatibles to be at specific
+settings.  If they are not, then the game needs to be told this.  The way to do
+this is with the BLASTER environment variable.  That's why this is needed.
+Some of our newer programs (Duke3D, ROTT) have specific setup programs which let
+you set up this information manually, but they still require the SET BLASTER
+line to operate at 100% efficiency.
+
+Please remember to add this to AUTOEXEC.BAT, save the file back to disk,
+reboot your computer, and make sure to delete the game's config file
+(DUKE3D.CFG) before running the game again.  If you have any further questions,
+please drop 3D Realms a line.
+
+
+
+                       ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                       ³WINDOWS 95 AND OS/2 ISSUES³
+                       ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Duke Nukem 3D is only officially supported under the following operating
+systems:
+
+                 Microsoft MS-DOS (versions 5.0 through 6.22)
+                     IBM PC DOS (versions 5.0 through 7.0)
+                                 Novell DOS 7
+
+This game was designed to be run only under these environments.  It was not
+designed for use under any other operating system, including Windows 95, OS/2
+Warp, or on a Macintosh using a DOS compatibility card.  For this reason, 3D
+Realms cannot provide technical support for problems running the game under
+these environments.  If you experience problems, contact the company that made
+your operating system.
+
+PLEASE NOTE:  While Microsoft Windows 95 has the ability to boot in "MS-DOS
+Mode", this is still not a supported environment.  Microsoft has made many
+changes to the version of MS-DOS (v7.0) that is integrated into Windows 95.
+These changes have been known to cause Duke Nukem 3D to fail to operate on some
+systems, while they have caused no problems on other systems.  If you choose to
+try to run Duke Nukem 3D in MS-DOS mode on your system, be advised that you do
+so at your own risk.  Neither 3D Realms Entertainment nor Apogee Software can
+be held responsible for any problems that you may encounter, nor can we provide
+technical support for such problems.
+
+
+                            ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                            ³WHAT IS PROTECTED MODE?³
+                            ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+As promised earlier in this document, here is an explanation of protected mode.
+This information is not necessary to get the game running, but it's included as
+background information for the curious.
+
+Historically, DOS programs have always required that you run them in the first
+640k of ram.  This was a limitation imposed on DOS back when v1.0 was the only
+thing around.  For compatibility's sake, this is the way things have remained.
+Any memory above 640k could only be used for data storage, not for program
+execution.  That's why you always saw those dreaded "Out of Memory" messages.
+
+As time went on, certain programs, (and later DOS itself) gained the ability to
+load part of themselves "high", leaving more conventional (the first 640k) of
+memory available.  You still had the limitation of the 640k barrier, but some
+more breathing room was made by these memory advances.
+
+More recently, advances were made in memory management so that programs could
+run in protected mode.  Protected mode is a special way of programming so that
+your program doesn't have the 640k barrier.  Depending on how the program is
+written, the entire thing is in protected mode, or it requires the use of a DOS
+"Extender" to run that way.  Duke3D is such a program.  Duke3D uses a DOS
+extender to access much more memory than it would have been able to if it were
+written the old way.  A game of this complexity would have never been able to
+have been written if the old 640k barrier method of programming was used.
+
+Well, you might be asking, what about my older programs?  Can't I just use a
+DOS extender, and have that run something like "Wolfenstein 3D", and never get
+those out of memory errors?  Well, it's not as simple as that.  If a program is
+using a DOS extender, it has to be written a special way.  A DOS extender isn't
+just a magic wand that you can use to wipe away your memory problems for
+non-protected mode programs.  The program has to be written a special way to
+make use of the DOS extender.
+
+To summarize, protected mode (sometimes referred to as the "flat memory" model)
+is a way for a DOS program (either by itself, or through the use of a DOS
+extender) to access more than just the first 640k of memory for program
+execution.  Because of this, more complex programs (such as Duke3D) are able to
+be written.  If using the old 640k barrier method (sometimes referred to as a
+"segmented memory" model), this type of program would not have been possible.
+
+If you're still confused, don't worry about it.  As I said above, this
+information is not necessary for the proper play of Duke3D.  It's in here for
+background information only.  If you're still inclined, check out some DOS
+programming books available at your library or a book store.  They have far
+more detailed explanations of this than would be possible in this document.
+
+
+                          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                          ³CONTACTING TECHNICAL SUPPORT³
+                          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+3D Realms thanks you very much for playing our games.  Customer satisfaction
+is a high priority of ours, and we strive to please everyone.  Our Technical
+Support staff is available to assist all of our customers in solving any
+technical problems that may be experienced.  Our Technical Support Department
+is available to answer your questions Monday through Friday during the hours of
+8:00 A.M. to 6:00 P.M. Central Standard Time.  The phone number for the Tech
+Support Department is (214) 278-5655.
+
+However, the voice line isn't your only channel of contact.  We are also
+reachable via a fax machine at (214) 278-4670, (24 hours a day).  Please
+allow two full working days for faxed replies, and PLEASE include a return
+fax number on your fax!  If you do not have a return fax number, please
+include a mailing address so that we can respond via mail.
+
+You can also write to us at this mailing address:
+
+                          3D Realms Entertainment
+                          POB 496419
+                          Garland, TX 75049-6389
+                          United States of America
+
+If you do contact our Technical Support department, please be at your computer,
+and have it ready for assistance.  If you can't be at your computer, please
+have the following things available when you call:
+
+     ¯ Printouts of your CONFIG.SYS and AUTOEXEC.BAT files.
+
+     ¯ A print of the results of a "MEM /C" command (see your DOS manual
+       for details).  If you get an error doing MEM /C, do a plain MEM
+       instead.
+
+     ¯ A list of all devices installed in your system, such as sound
+       cards, CD-ROM drives, modems, etc.  Brand names, model numbers,
+       and settings for each device will help greatly.
+
+     ¯ A detailed description of the problem, what you have already tried to
+       do to resolve it (in detail), and PRECISE error messages.
+
+It may be possible to provide technical support without these things, but it
+will be much more difficult.
+
+
+                                ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                                ³3D REALMS ONLINE³
+                                ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+3D Rrealms Technical Support can also be contacted via a variety of electronic
+media.  Several major online services are monitored, and our online contact
+points are listed below.   Also, a variety of Bulletin Board networks are
+monitored as well, and those are also listed.
+
+þ Major Online Services
+
+3D Realms has forums on both CompuServe and America Online!   Both of these
+forums have all of our shareware (as well as Apogee's, too!) available for
+download.  They also have other helpful files, as well as some user submitted
+files as well.  If you are on these services, and haven't checked out our
+forum, why not try 'em today?
+
+     ¯ CompuServe: Type "GO REALMS" at any ! prompt
+     ¯ America Online: Use the keyword '3D REALMS' to get to our forum.
+
+þ Internet Services
+
+3D Realms has its own World Wide Web Site!  Point your Web Browser to the URL
+http://www.3drealms.com, and you'll reach us on the Web!  We have all kinds of
+cool files and information here, so if you like Apogee or 3D Realms and you're
+on the Web, you need to be here!  You can learn about future games, take a
+"virtual tour" of our headquarters, and participate in the lively message
+bases!
+
+For the latest Duke Nukem 3D Info Updates, please visit the Official Duke Nukem
+3D home page.  It's reachable at http://www.3drealms.com/duke3d.html.  You can
+pick up lots of Duke info here, as well as finding links to customer created
+Duke Nukem 3D WWW sites!
+
+Join our Internet mailing list!  The 3D Realms mailing list is a list where you
+can receive press releases, general info, new game release notifications, and
+other miscellaneous items. Drop us a line at 3drealms@3drealms.com, and we'll
+put you on.  It doesn't cost anything, and all we need is your Internet E-Mail
+address!  Your friends are probably on the list - are you?
+
+3D Realms has an official Anonymous FTP site for our shareware downloads:
+
+                        ftp://3drealms.best.com
+
+This is a standard Anonymous FTP site.  If you're getting an error like
+"Anonymous Access Denied", "Cannot Access File", or something like that, you're
+probably just running into the limit.  All Anonymous FTP sites have limits to
+the number of people that can access it at once.  Think of it as a busy signal,
+and try again later.  We also recommend talking to your local Internet Service
+provider (or the author of your FTP software) about how to properly use the
+Internet program you're trying to use.
+
+Also, as long as you're already on the Internet, check out the revolutionary
+Software Creations Web BBS.  It's a whole new concept for the Internet!  Point
+your web browser to http://www.swcbbs.com!
+
+þ Software Creations & other Bulletin Board Networks
+
+We can be reached on Software Creations, the Apogee/3D Realms BBS.  Software
+Creations can be reached by calling 1-508-368-7036.  Software Creations is our
+#1 file site.  Our games are released there before anywhere else in the world,
+so if you want the latest stuff, take a trip over to Software Creations, the
+BBS voted #1 two years running by the readers of BoardWatch Magazine!
+
+Again, make sure to check out the Software Creations Web BBS.  If you're on the
+World Wide Web, point your browser at http://www.swcbbs.com.  You'll be glad
+you did!
+
+There are several BBS networks that are monitored for Apogee/3D Realms
+messages.  Our Online Support Representative monitors all of the following BBS
+networks:
+
+                                    Fidonet
+                                Relaynet (RIME)
+                                    Intelec
+                                     Ilink
+
+All of these BBS networks have Games, Shareware, and Apogee conferences.  Any
+3D Realms-related topics are also welcome in the Apogee conferences.  Private
+mail can also be sent to Apogee on Fidonet and Rime with the following
+addresses:
+
+    Fidonet       -> 1:124/9006              Rime       -> APOGEE (or 1674)
+
+Apogee also has a FDN on the Fidonet Filebone, where both Apogee and 3D Realms
+files are distributed.  Check with your local Fido Filebone administration for
+more info on how to get Apogee's and 3D Realms' shareware delivered right to
+your BBS!  Check FILEBONE.NA (available from your local Fido administration)
+for more info.
+
+                All trademarks mentioned in this manual are the
+                      property of their respective owners.
+
+     This document was written by Joe Siegler, with help from Lee Jackson.
+    Thanks to Mark Dochtermann for the section on advanced controller setup.
+

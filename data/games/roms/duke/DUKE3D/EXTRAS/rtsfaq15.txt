@@ -1,0 +1,382 @@
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
+                       The Official RTS FAQ ver 1.5
+                      Written By: Charlie Wiederhold
+                     Current as of: September 1st, 1997
+
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
+CONTENTS: A ~ denotes a new section, and ^ denotes an updated section
+
+<1> Introduction
+   ^<1.1> A word from the author
+    <1.2> About this FAQ
+         ^<1.2.1> Where to get this FAQ
+         ^<1.2.2> Revision history
+   ^<1.3> What is an RTS (Remote Ridicule Sound) file?
+         ^<1.3.1> Apogee and 3D Realms, just a little info
+          <1.3.2> Where RTS files come from
+         ^<1.3.3> Where RTS files can be used
+
+<2> How to make an RTS file
+   ^<2.1> What you need to begin with
+    <2.2> Parameters for the sounds used
+    <2.3> How to make a script file
+   ^<2.4> I have this great file I made! What now?
+ 
+<3> Decompiling RTS files
+    <3.1> What you need to begin with
+    <3.2> What to do with the RTS file
+
+<4> Hints and suggestions for good RTS files
+    <4.1> What kinds of sounds should I use?
+    <4.2> About how long should they be?
+    <4.3> "I hate 8 bit sounds! I want 16 bit!"
+
+<5> Trouble Shooting: RTS files that don't work
+    <5.1> My RTS won't create?
+    <5.2> RTS creates, but only some or none of the sounds work?
+    <5.3> WAD file doesn't have IWAD id?
+
+<6> What files are already out there?
+   ^<6.1> Types and locations
+   ^<6.2> Front Ends for RTSMAKER.EXE
+
+<7> Contacting People About RTS Files
+   ^<7.1> Charlie Wiederhold
+    <7.2> Apogee
+    <7.3> 3D Realms
+
+<8> Credits
+
+=============================================================================
+The legal stuff that you probably won't read or even care about...
+
+This FAQ is copyright (c) 1996 by Charlie Wiederhold. Nothing contained
+within it may be distributed unless every single last ASCII character is
+sent with it. I put them in there for a reason, so leave it. Thanks. All
+credits shall be given to me, or to someone else by me. You may pirate this
+copy as much as you want, cause if you paid for it, you really messed up.
+All that I ask, is that you treat this with the proper respect in reverence
+of the time I spent on it to help you. Thanks!
+=============================================================================
+
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+Section 1 - Introduction
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
+<1.1> A word from the author
+
+I currently work for Sunstorm Interactive as a level designer, programmer,
+and web designer. You can check out what we are doing at:
+http://www.sunstorm.net
+
+Anyways, I CANNOT guarantee that everything within this FAQ is true. But,
+I will try to be as correct as I can possibly be. If you notice an error,
+or think something else should be in here, just contact me. I can be
+contacted from my page, or you can just e-mail me at 
+wieder@earthlink.net
+
+<1.2> About this FAQ
+
+I wrote this thing to help people out who get a bit confused as to what an
+RTS file is, and how to make them. Also, to attempt to bring to light, just
+how cool these things are.
+
+<1.2.1> Where to get this FAQ (and all subsequent updates)
+
+WWW
+http://www.3drealms.com
+http://www.apogee1.com
+http://www.dukeworld.com
+
+Usenet
+alt.games.apogee
+alt.games.duke3d
+
+FTP
+ftp://apogee.best.com
+ftp://3drealms.best.com
+
+You can also get it via e-mail by simply sending a bit of mail to
+wieder@earthlink.net and asking for it.
+
+<1.2.2> Revision history
+
+-Version 1.5
+1) Updated all info related to currently employment at Sunstorm Interactive
+2) Updated all info related to Shadow Warrior, and other current/future
+   projects being developed by 3D Realms in regards to RTS files.
+3) Mention Pinball Wizards in the info about Apogee.
+4) Finally got rid of any misleading information that I still accept RTS
+   files through the e-mail, or run the archive anymore.
+
+-Version 1.3
+
+1) Modified the contact information for Maximum Carnage information
+2) Got rid of everything related to the old RTS Archive and related stuff
+
+-Version 1.2
+
+1) Updated new URL and email information for the author
+2) Removed information talking about the WiederWeb RTS Archive
+
+-Version 1.1
+
+1) Updated info on what you need to create RTS files
+2) Updated info on Front Ends for RTS files
+3) Added the trouble shooting information
+
+-Version 1.0
+
+1) Initial creation, and verification from Apogee/3D Realms.
+
+<1.3> What is an RTS (Remote Ridicule Sound) file?
+
+RTS (Remote Ridicule) files are the files that contain the sounds made when
+you push <ALT><F1> through <ALT><F10> in Duke Nukem 3D and Shadow Warrior;
+and <F1> through <F10> in Rise of the Triad. These first premiered in Rise of
+the Triad, and really took off in popularity with the release of Duke Nukem
+3D. I assume they will continue to be used in many of Apogee's and 3D Realms'
+games. They are used predominantly in multi-playing as ways to express
+yourself about something that happened, or is about to happen. The majority
+are humorous in nature, but a few have ventured into making a serious file
+with a real purpose.
+
+Please note: RTS files can be heard in both multiplay and single play in
+Duke 3D/Shadow Warrior. They can only be heard during multiplay in ROTT.
+
+<1.3.1> Apogee and 3D Realms, just a little info
+
+Apogee is the company that revolutionized the method of marketing games. They
+released games as shareware before actually sending it to the selling blocks.
+Now, almost all the major companies will release a shareware version of their
+games before the actual full version. With such classics as Commander Keen,
+Duke Nukem 1 & 2, the Kroz series, and many others, Apogee was able to
+establish themselves as a major game maker. Some of the newer hits are Wacky
+Wheels, Rise of the Triad, and Xenophage.
+
+3D Realms is the 3D gaming branch of Apogee, and is where all the in house
+development is focused. Currently, 3D Realms has released Terminal Velocity,
+Duke Nukem 3D, and Shadow Warrior. With two more titles coming, Duke Nukem
+Forever, and Prey... they are sure to be a major force in the 3D gaming world
+for some time to come. 3D Realms is also currently working with Remedy
+Entertainment as Remedy develops Max Payne.
+
+Pinball Wizards is another branch from Apogee focusing on the development of
+top notch pinball games. Currently they have one title, Balls of Steel, soon
+to be released.
+
+<1.3.2> Where RTS files come from
+
+RTS files originated with Rise of the Triad, and one came with the game. But,
+Apogee gave out the program with which to create them, and now users have
+taken over the spotlight. Over 170 new RTS files are now floating around the
+internet, and I am sure that number will continue to grow as more users find
+an interest in them.
+
+<1.3.3> Where RTS files can be used
+
+RTS Files can be used in currently every first person 3D game developed by
+3D Realms/Apogee. (Rise of the Triad, Duke Nukem 3D, and Shadow Warrior).
+More than likely, they will continue to be used in Duke Nukem Forever, and
+possibly Prey. But until official word from 3D Realms emerges, we won't
+know for sure.
+
+-----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+Section 2 - How to make an RTS file
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
+<2.1> What you need to begin with
+
+Note: This gives a description of how to make an RTS _without_ the use of
+any extra front ends, etc. The use of a front end is highly suggested, as it
+speeds the process of making RTS files.
+
+First of all, you need the program RTSMAKER.EXE. The most current is
+RTSMaker v2.0. It allows you to not only assemble, but also take apart RTS
+files. Very convenient when you have sounds from several RTS files that you
+feel should be in one compact file. You can get this from almost any quality
+Duke 3D or ROTT site (including the official 3D Realms and Apogee BBS web
+pages). Plus, it is included with many titles released by 3D Realms/Apogee.
+RTSMaker v1.0 is available from the ROTT CD, and the disk based ROTT Power
+Pack. RTSMaker v2.0 is available on the Duke3D and Shadow Warrior CDs.
+
+Before you do anything, you may want to check out one of the deepest secrets
+of the RTSMAKER.EXE file. Just type it at the DOS prompt, and some wonderful
+help information comes up. Believe me, very few people even know about it.
+
+You will need 10 .WAV or .VOC sound files. Many cool sound files can be
+found around the internet, or maybe you have some on your computer. If you
+like a certain theme look for a web site about that theme, and you are almost
+guaranteed to find some cool .WAV files there. You can use both .VOC and .WAV
+files when creating an RTS file.
+
+Also, there are many .WAV and .VOC file editors out there, one of which is
+currently at my web site. You can visit several sound related web sites and
+find some other good editors. These can be used to clean up a sound, or cut a
+sound to make it shorter.
+
+But, the basics are RTSMAKER.EXE and 10 .WAV or .VOC sound files.
+
+<2.2> Parameters for the sounds used
+
+I do not currently know the variations of sounds that can be used to create
+an RTS file, but please keep in mind that you should keep them fairly simple.
+Here are a few notes from Mark Dochtermann:
+
+You can have 8 or 16 bit sounds.
+You CANNOT have stereo.
+You can have anywhere from 2Khz to 44Khz sounds.
+
+The size of a sounds is not limited, but the game has to be able to load it.
+You make it too big, and the game may crash trying to play it. Trust me, the
+simpler they are... the more effective in game play they seem to be.
+
+A neat trick that has never before been released until now (Thanks Jim Dose!),
+is that you can make an infinite RTS sound. If you construct your .WAV or
+.VOC in such a way that it loops, you can put THAT in the RTS file. Then, when
+the person goes to select that sound, it will keep playing on forever. Not
+a very FUN trick for everyone else playing the game, but hey... it is still
+a trick! Don't go asking me for help on how to make a looping sound file...
+I don't have a clue, and will not learn how just so I don't ever have to
+tell anyone. ;^)
+
+<2.3> How to make a script file
+
+In order to make a script file, you need to know the format for what
+RTSMAKER.EXE will look for. Just use any ASCII editor (ex. DOS Edit) just
+as long as it saves the file in raw ASCII text.
+
+Now, on the first line of this file, type the name of the RTS you want it to
+make. This is so RTSMAKER.EXE will know what to call the file it is going to
+create. Then, on each line after that, type the names of the sound files you
+want included. Be sure to type the whole thing, including the extension.
+
+When you are done, save the file. Then, make sure that RTSMAKER.EXE, your
+script file, and the sound files are all in the same directory. Now, all you
+have to do is type RTSMAKER <Name of your script file here> at the command
+prompt, and it will compile it and save the new RTS as whatever you specified
+in the script file.
+
+So, here is an example of a script file named MAKERTS.TXT that I might use.
+
+MyRTS.RTS
+Sound1.WAV
+Sound2.VOC
+Sound3.WAV
+Sound4.WAV
+Sound5.WAV
+Sound6.VOC
+Sound7.WAV
+Sound8.WAV
+Sound9.VOC
+Sound10.WAV
+
+Then, after I saved this text file as MAKERTS.TXT, I would type this at the
+command prompt:
+
+rtsmaker makerts.txt
+
+Note: It is often convenient to rename the sounds you want to something
+simple to remember, like Sound<#>.(WAV/VOC). This is for your sake to help
+prevent typos when trying to remember the names of all the sound files.
+
+<2.4> I have this great file I made! What now?
+
+Find a webpage that distributes them and upload it to them! One of the most
+notable pages I know of is Dukeworld.com, which is a part of the ever growing
+Elitegames.com website.
+
+I used to post these, and accept them, when I ran the WiederWeb RTS Archive,
+but due to a lack of time, I simply can't do this anymore. Joe Siegler of
+3D Realms currently has what is left of the archive stored away somewhere...
+to emerge another day... time will only tell. :)
+
+The last incarnation of the archive is located at:
+http://www.maximum-carnage.com
+However I do not know how much longer these pages will be up, etc. One day,
+should I ever have the drive space, and the time, I may start it up again.
+But so far the chances don't look good. :( I would love for someone else to
+pick up the torch and carry it on, so if you are interested, contact me
+at wieder@earthlink.net
+
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+Section 3 - Decompiling RTS files
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
+<3.1> What you need to begin with
+
+You must have RTSMaker v2.0 in order to decompile an RTS file.
+
+<3.2> What to do with the RTS file
+
+Type RTSMAKER -u <Name of RTS>.RTS at the command prompt. 
+
+For example: rtsmaker -u duke.rts
+
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+Section 4 - Hints and suggestions for good RTS files
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
+<4.1> What kinds of sounds should I use?
+
+You really should use sounds that fit into a theme. Of course, there are
+many RTS files out there that are pretty random, and still funny or
+effective, the best continue to be ones with a theme. As far as subject
+matter, the sky is the limit... or should I say, the number of sounds in the
+world is the limit?
+
+<4.2> About how long should they be?
+
+Long sounds tend to slow the game down while they are loading, and actually
+get in the way. Also, they simply make the file pretty dang large, thus they
+take a while to download and take up a lot of space. Short simple quotes that
+quickly make their statement seem to have the most effect while multi-playing.
+
+<4.3> "I hate 8 bit sounds! I want 16 bit!"
+
+What quality of sound you pick is up to you. There are advantages either way.
+8 bit sounds are naturally smaller, but do not have the clarity of a 16 bit
+sound. You make the judgment yourself. Size or quality.
+
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+Section 5 - Trouble Shooting: RTS files that don't work
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
+<5.1> My RTS won't create?
+
+Be sure to double check your script file, and make sure that the spelling of
+all .WAV/.VOC files are correct. Also, confirm that if you are using .WAV
+files, that you are using RTSMaker Version 2.0. Also... make sure that your
+.WAV/.VOC files are actually sound files. Not some other type of file.
+
+<5.2> RTS creates, but only some or none of the sounds work?
+
+Again, confirm that your sound files are valid sound files. Try them out in
+other sound players. Secondly, if it is a .WAV file that is not working...
+try converting it to a .VOC file. Most of the time this will solve your
+problems. Some users have said that the program they used to create the .WAV
+affected whether it worked or not. So, try to use multiple programs to s
+
+
+From Joe Siegler:
+
+My copy of this FAQ is corrupt, and ends here abruptly.  I have attempted to
+locate a full copy of the v1.5 RTS FAQ, but unfortunately, no one has been
+able to find one.  Even the author no longer has it.
+
+If you happen to have a full copy of v1.5 of the RTS FAQ, please drop me a 
+line at joes@3drealms.com about it.  Thanks!

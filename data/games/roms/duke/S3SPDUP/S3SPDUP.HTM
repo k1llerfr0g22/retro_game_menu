@@ -1,0 +1,239 @@
+<html>
+
+<head>
+
+<title> S3 Speed Up  Version 3.11 </title>
+
+<meta name="author" content="Dietmar Meschede">
+
+<meta name="description" content="Documentation for S3 Speed Up.  S3 Speed Up speeds up most banked VESA modes and VGA mode 13h (320x200x256) on S3 graphics cards.  S3 Speed Up requires S3 VBE/Core 2.0 (version 3.10 or higher).">
+
+<meta name="keywords" content="Dietmar Meschede, S3 Speed Up, S3 VBE 2.0, S3 VBE/Core 2.0">
+
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table border=0 cellspacing=0 valign=top width=100%>
+
+<tr> <td align=center> 
+<font face="arial" font size=+2> <b> S3 Speed Up &nbsp Version 3.11 </b> </font>
+
+<tr> <td height=25>
+
+<tr> <td>
+This is the documentation for S3 Speed Up. &nbsp S3 Speed Up is
+Copyright (c) 1994,97 Dietmar Meschede. &nbsp All rights reserved.
+
+<tr> <td height=25>
+
+<tr> <td>
+<font size=+1> <b> Contents </b> </font> 
+
+<tr> <td height=10>
+
+</table>
+
+<table border=0 cellspacing=0 valign=top width=500>
+
+<tr> <td width=500>
+<tr> <td> 1. Overview
+<tr> <td> 2. Installation
+<tr> <td> 3. Speed up
+<tr> <td> 4. The S3 Speed Up package
+<tr> <td> 5. Copyright, legal disclaimer and terms of use
+<tr> <td> 6. The author
+
+</table>
+
+<table border=0 cellspacing=0 valign=top width=100%>
+
+<tr> <td height=25>
+
+<tr> <td>
+<font size=+1> <b> 1. Overview </b> </font>
+
+<tr> <td height=10>
+
+<tr> <td>
+S3 Speed Up is a MS-DOS TSR program, which can speed up most banked VESA
+modes (no text or 4 bits/pixel modes) and VGA mode 13h (320x200x256)
+on S3 graphics cards.
+
+<tr> <td height=5>
+
+<tr> <td>
+S3 Speed Up requires S3 VBE/Core 2.0 (version 3.10 or higher).
+
+<tr> <td height=25>
+
+<tr> <td>
+<font size=+1> <b> 2. Installation </b> </font>
+
+<tr> <td height=10>
+
+<tr> <td>
+You must install S3 VBE/Core 2.0 (version 3.10 or higher) in memory
+before installing S3 Speed Up.
+
+<tr> <td height=5>
+
+<tr> <td>
+Simply type "S3SPDUP /LOAD" to install S3 Speed Up in memory.
+
+<tr> <td height=5>
+
+<tr> <td>
+Type "S3SPDUP VESA+" to install S3 Speed Up in memory and activate
+banked VESA modes speed up.
+
+<tr> <td height=5>
+
+<tr> <td>
+For savety reasons S3 Speed Up is disabled at Windows(tm) start up and
+shut down.  If you want to use S3 Speed Up under Windows(tm), you must
+activate S3 Speed Up in each DOS box.
+
+<tr> <td height=5>
+
+<tr> <td>
+"S3SPDUP /?" shows a help screen.
+
+<tr> <td height=25>
+
+<tr> <td>
+<font size=+1> <b> 3. Speed up </b> </font>
+
+<tr> <td height=10>
+
+<tr> <td>
+S3 Speed Up can speed up most banked VESA modes (no text or
+4 bits/pixel modes) and VGA mode 13h (320x200x256).
+
+<tr> <td height=5>
+
+<tr> <td>
+To speed up these modes S3 Speed Up must temporary change the
+PCI base address, which may cause problems!
+
+<tr> <td height=5>
+
+<tr> <td>
+E.g. programs using the S3d(tm) engine (native S3 ViRGE programs)
+may or may not run, if banked VESA modes speed up is enabled.
+
+<tr> <td height=5>
+
+<tr> <td>
+The speed up of VGA mode 13h is not 'Mode X' compatible.  This means
+that some programs (e.g. DOOM) will not work when the VGA mode 13h
+speed up is enabled.
+
+<tr> <td height=5>
+
+<tr> <td>
+Only use VGA mode 13h speed up, if you are familiar with 'Mode X'!
+
+<tr> <td height=5>
+
+<tr> <td>
+Programs using VESA VBE/Core 2.0 linear frame buffer modes
+(e.g. QUAKE) will not profit from banked VESA modes speed up.
+
+<tr> <td height=25>
+
+<tr> <td>
+<font size=+1> <b> 4. The S3 Speed Up package </b> </font>
+
+<tr> <td height=10>
+
+<tr> <td>
+The S3 Speed Up package consists of the following 6 files:
+
+<tr> <td height=5>
+
+</table>
+
+<table border=0 cellspacing=0 valign=top width=500>
+
+<tr> <td> &nbsp &nbsp FILE_ID.DIZ
+<td> &nbsp &nbsp Short description. 
+<tr> <td> &nbsp &nbsp S3SPDUP.EXE
+<td> &nbsp &nbsp S3 Speed Up.
+<tr> <td> &nbsp &nbsp S3SPDUP.TXT
+<td> &nbsp &nbsp Documentation for S3 Speed Up.
+<tr> <td> &nbsp &nbsp S3SPDUP.HTM
+<td> &nbsp &nbsp Documentation for S3 Speed Up.
+<tr> <td> &nbsp &nbsp HISTORY.TXT
+<td> &nbsp &nbsp History of S3 Speed Up.
+<tr> <td> &nbsp &nbsp HISTORY.HTM
+<td> &nbsp &nbsp History of S3 Speed Up in HTML format.
+
+</table>
+
+<table border=0 cellspacing=0 valign=top width=100%>
+
+<tr> <td height=25>
+
+<tr> <td>
+<font size=+1> <b> 5. Copyright, legal disclaimer and terms of use </b> </font>
+
+<tr> <td height=10>
+
+<tr> <td>
+S3 Speed Up is Copyright (c) 1994,97 Dietmar Meschede.
+All rights reserved.
+
+<tr> <td height=5>
+
+<tr> <td>
+The author (Dietmar Meschede) excludes any warranties with respect to
+S3 Speed Up.  The author shall have no liability for damages arising
+out of or resulting from the use or misuse of S3 Speed Up.
+
+<tr> <td height=5>
+
+<tr> <td>
+All trademarks used in this documentation are property of their respective
+owners.
+
+<tr> <td height=5>
+
+<tr> <td>
+This package is Freeware.  You may use, copy and distribute this
+package, if you don't modify the files in this package in any way
+and only distribute the original package with all files included.
+
+<tr> <td height=25>
+
+<tr> <td>
+<font size=+1> <b> 6. The author </b> </font>
+
+<tr> <td height=10>
+
+</table>
+
+<table border=0 cellspacing=0 valign=top width=500>
+
+<tr> <td width=500>
+<tr> <td> Dietmar Meschede
+</table>
+
+<table border=0 cellspacing=0 valign=top width=%100>
+
+<tr> <td height=10>
+
+</table>
+
+<table border=0 cellspacing=0 valign=top width=500>
+
+<tr> <td> <td width=5> <td width=450>
+<tr> <td> E-Mail: <td> <td> <a href=mailto:mesched@math.uni-muenster.de>mesched@math.uni-muenster.de</a>
+<tr> <td> WWW: <td> <td> <a href=http://www.uni-muenster.de/math/u/mesched/>http://www.uni-muenster.de/math/u/mesched/</a>
+<tr> <td> FTP: <td> <td> <a href=ftp://ftp.uni-muenster.de/pub/win95/meschede/>ftp://ftp.uni-muenster.de/pub/win95/meschede/</a>
+
+</table>
+
+</body>
+
+</html>

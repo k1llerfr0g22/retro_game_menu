@@ -1,0 +1,58 @@
+
+-------------------------------------------------------------------------------
+---------------------------  History of S3 Speed Up  --------------------------
+-------------------------------------------------------------------------------
+
+
+Version 3.11  (1. December 1997)
+--------------------------------
+
+> Updated documentation.
+
+> This is the final release of S3 Speed Up.
+
+
+Version 3.11  (1. September 1997)
+---------------------------------
+
+> Fixed a bug in runtime library, which caused runtime errors on fast systems.
+
+> Added files S3SPDUP.HTM and HISTORY.HTM to S3 Speed Up package.
+
+
+Version 3.10  (3. October 1996)
+-------------------------------
+
+> Improved compatibility with Windows(tm).
+
+> S3 Speed Up package now requires S3 VBE 2.0 package (version 3.10 or higher).
+
+> Removed support for German language.
+
+> Renamed file S3SPDUP.DOC to S3SPDUP.TXT in S3 Speed Up package.
+
+> Added file HISTORY.TXT to S3 Speed Up package.
+
+> Removed file S3SPDUP.DOK from S3 Speed Up package.
+
+
+Version 3.02  (3. April 1996)
+-----------------------------
+
+> Fixed a bug in language detection code, which sometimes crashed the system.
+
+
+Version 3.01  (12. January 1996)
+--------------------------------
+
+> First release of S3 Speed Up package.
+
+> Moved S3 Speed Up from D-Tools package to S3 Speed Up package.
+
+> Added files FILE_ID.DIZ, S3SPDUP.DOC, S3SPDUP.DOK to S3 Speed Up package.
+
+
+Version 3.00  (27. July 1995)
+-----------------------------
+
+> First official release of S3 Speed Up as part of D-Tools package.
